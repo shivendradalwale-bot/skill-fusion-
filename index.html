@@ -1,0 +1,2472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- ================= PRIMARY SEO META ================= -->
+<title>SkillFusion | C Programming Training &amp; Business Website Design</title>
+<meta name="description" content="SkillFusion Academy offers practical C, C++, Java, Python &amp; Linux programming training. SkillFusion Digital builds business websites, landing pages, redesigns, e-commerce sites &amp; custom web apps.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="SkillFusion">
+<link rel="icon" href="data:,">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; upgrade-insecure-requests;">
+
+<!--
+  TODO before going live: replace every "https://your-domain.com/" placeholder
+  below (canonical, Open Graph, Twitter, JSON-LD, sitemap.xml, robots.txt)
+  with the site's real, final domain.
+-->
+<link rel="canonical" href="https://your-domain.com/">
+
+<!-- ================= OPEN GRAPH (Facebook/LinkedIn/WhatsApp previews) ================= -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SkillFusion">
+<meta property="og:locale" content="en_IN">
+<meta property="og:title" content="SkillFusion | C Programming Training &amp; Business Website Design">
+<meta property="og:description" content="Practical programming education (C, C++, Java, Python, Linux) plus professional business websites, landing pages, redesigns, e-commerce sites and custom web applications.">
+<meta property="og:url" content="https://your-domain.com/">
+<!-- TODO: add a real 1200x630 social preview image and update this path -->
+<meta property="og:image" content="https://your-domain.com/og-image.jpg">
+
+<!-- ================= TWITTER / X CARD ================= -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SkillFusion | C Programming Training &amp; Business Website Design">
+<meta name="twitter:description" content="Practical programming education (C, C++, Java, Python, Linux) plus professional business websites, landing pages, redesigns, e-commerce sites and custom web applications.">
+<!-- TODO: add a real 1200x630 social preview image and update this path -->
+<meta name="twitter:image" content="https://your-domain.com/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- =====================================================================
+     STRUCTURED DATA (schema.org / JSON-LD)
+     Reflects only real, on-page information: real phone numbers, real
+     emails, real service and course names already listed in the site
+     content. No ratings, reviews, addresses, prices or claims have been
+     added — none of that exists on the page, so none is asserted here.
+     Purely additive; safe to delete this one <script> block if not needed.
+     ===================================================================== -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SkillFusion",
+  "url": "https://your-domain.com/",
+  "description": "SkillFusion combines practical programming education with professional digital solutions — helping students build strong technical foundations and businesses build a stronger online presence.",
+  "email": "info@skillfusionacademy.com",
+  "department": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "SkillFusion Academy",
+      "description": "Practical, industry-oriented programming training in C, C++, Java, Python and Linux — open to complete beginners, students from any background, and experienced learners.",
+      "telephone": "+91 9860706062",
+      "email": "skillfusioncoaching@gmail.com",
+      "hasCourse": [
+        { "@type": "Course", "name": "C Programming", "description": "Hands-on C programming training from fundamentals through practical, real-world coding practice.", "provider": { "@type": "EducationalOrganization", "name": "SkillFusion Academy" } },
+        { "@type": "Course", "name": "C++ Programming", "description": "Practical C++ training building on core programming fundamentals.", "provider": { "@type": "EducationalOrganization", "name": "SkillFusion Academy" } },
+        { "@type": "Course", "name": "Java Programming", "description": "Practical Java programming training for students and beginners.", "provider": { "@type": "EducationalOrganization", "name": "SkillFusion Academy" } },
+        { "@type": "Course", "name": "Python Programming", "description": "Practical Python programming training for students and beginners.", "provider": { "@type": "EducationalOrganization", "name": "SkillFusion Academy" } },
+        { "@type": "Course", "name": "Linux OS", "description": "Practical training on the Linux operating system.", "provider": { "@type": "EducationalOrganization", "name": "SkillFusion Academy" } }
+      ]
+    },
+    {
+      "@type": "ProfessionalService",
+      "name": "SkillFusion Digital",
+      "description": "Modern, responsive, professional websites and digital solutions for growing businesses — landing pages, redesigns, e-commerce and custom web applications.",
+      "telephone": "+91 6361435651",
+      "email": "info@skillfusionacademy.com",
+      "makesOffer": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Business Websites" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landing Pages" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Redesign" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "E-Commerce Websites" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Website Maintenance" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom Web Applications" } }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{
+    --navy-deep:#122a52;
+    --navy:#1c3868;
+    --blue:#3a63d4;
+    --blue-bright:#4d74e0;
+    --ink:#16233d;
+    --white:#ffffff;
+    --paper:#f5f8fc;
+    --paper-2:#ecf1fa;
+    --line:#e1e8f4;
+    --muted:#66759a;
+    --orange:#f0824a;
+    --orange-dark:#dd6b2f;
+    --radius-lg:22px;
+    --radius-md:14px;
+    --shadow-soft:0 20px 50px -25px rgba(18,42,82,0.28);
+    --shadow-tight:0 8px 20px -10px rgba(18,42,82,0.18);
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:'Manrope',sans-serif;
+    color:var(--ink);
+    background:var(--white);
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  h1,h2,h3,h4{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    line-height:1.08;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  p{margin:0;}
+  a{text-decoration:none;color:inherit;}
+  ul{margin:0;padding:0;list-style:none;}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;}
+  img,svg{display:block;max-width:100%;}
+  .container{max-width:1200px;margin:0 auto;padding:0 24px;}
+  section{position:relative;}
+
+  @media (prefers-reduced-motion: reduce){
+    *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important;}
+  }
+
+  ::selection{background:var(--orange);color:#fff;}
+
+  /* ---------- reveal on scroll ---------- */
+  .reveal{opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease;}
+  .reveal.in{opacity:1; transform:translateY(0);}
+  .reveal-stagger > *{opacity:0; transform:translateY(20px); transition:opacity .6s ease, transform .6s ease;}
+  .reveal-stagger.in > *{opacity:1; transform:translateY(0);}
+  .reveal-stagger.in > *:nth-child(1){transition-delay:.03s;}
+  .reveal-stagger.in > *:nth-child(2){transition-delay:.11s;}
+  .reveal-stagger.in > *:nth-child(3){transition-delay:.19s;}
+  .reveal-stagger.in > *:nth-child(4){transition-delay:.27s;}
+  .reveal-stagger.in > *:nth-child(5){transition-delay:.35s;}
+  .reveal-stagger.in > *:nth-child(6){transition-delay:.43s;}
+  .reveal-stagger.in > *:nth-child(7){transition-delay:.51s;}
+
+  /* ---------- buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    padding:15px 30px;border-radius:100px;font-weight:700;font-size:15px;
+    transition:transform .25s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+    white-space:nowrap;
+  }
+  .btn-orange{background:var(--orange);color:#fff;box-shadow:0 14px 30px -12px rgba(255,122,41,0.65);}
+  .btn-orange:hover{background:var(--orange-dark);transform:translateY(-2px);box-shadow:0 18px 34px -12px rgba(255,122,41,0.75);}
+  .btn-navy{background:var(--navy-deep);color:#fff;}
+  .btn-navy:hover{background:var(--blue);transform:translateY(-2px);}
+  .btn-ghost{background:transparent;color:var(--navy-deep);border:1.5px solid var(--line);}
+  .btn-ghost:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px);}
+  .btn-ghost-light{background:rgba(255,255,255,0.08);color:#fff;border:1.5px solid rgba(255,255,255,0.35);backdrop-filter:blur(6px);}
+  .btn-ghost-light:hover{background:rgba(255,255,255,0.18);transform:translateY(-2px);}
+  .btn-sm{padding:11px 22px;font-size:13.5px;}
+  .btn-block{width:100%;}
+
+  .eyebrow{
+    font-size:13px; font-weight:700; color:var(--blue); letter-spacing:0.02em;
+    display:inline-flex; align-items:center; gap:8px;
+  }
+  .eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--orange);}
+
+  .section-head{max-width:640px;}
+  .section-head h2{font-size:clamp(30px,4vw,44px);color:var(--navy-deep);margin-top:12px;}
+  .section-head p{margin-top:16px;color:var(--muted);font-size:17px;line-height:1.6;}
+  .section-pad{padding:110px 0;}
+  @media(max-width:768px){.section-pad{padding:72px 0;}}
+
+  /* =================== NAV =================== */
+  header{
+    position:fixed; top:0; left:0; right:0; z-index:1000;
+    padding:22px 0; transition:padding .3s ease, background .3s ease, box-shadow .3s ease;
+  }
+  header.scrolled{
+    padding:12px 0; background:rgba(255,255,255,0.85); backdrop-filter:blur(14px);
+    box-shadow:0 8px 30px -18px rgba(7,27,63,0.3);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-wrap{display:flex;align-items:center;justify-content:space-between;}
+  .brand{display:flex;flex-direction:column;line-height:1;}
+  .brand-name{
+    font-family:'Fraunces',serif;font-weight:700;font-size:23px;color:var(--navy-deep);
+    letter-spacing:-0.01em;
+  }
+  header.scrolled .brand-name{color:var(--navy-deep);}
+  .brand-sub{
+    font-size:10.5px;font-weight:700;letter-spacing:0.16em;color:var(--orange);margin-top:3px;
+  }
+  .nav-links{display:flex;align-items:center;gap:38px;}
+  .nav-links a{
+    font-size:14.5px;font-weight:600;color:var(--navy-deep);position:relative;padding:4px 0;
+    transition:color .2s ease;
+  }
+  .nav-links a::after{
+    content:"";position:absolute;left:0;bottom:-2px;width:0;height:2px;background:var(--orange);
+    transition:width .25s ease;
+  }
+  .nav-links a:hover{color:var(--blue);}
+  .nav-links a:hover::after{width:100%;}
+  .nav-right{display:flex;align-items:center;gap:18px;}
+  .hamburger{display:none;flex-direction:column;gap:5px;width:26px;z-index:1200;}
+  .hamburger span{height:2px;width:100%;background:var(--navy-deep);border-radius:2px;transition:.3s ease;}
+  .hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+  .hamburger.open span:nth-child(2){opacity:0;}
+  .hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+
+  @media(max-width:900px){
+    .nav-links{display:none;}
+    .nav-desktop-only{display:none;}
+    .hamburger{display:flex;}
+  }
+
+  .mobile-menu{
+    position:fixed;inset:0;background:var(--navy-deep);z-index:1100;
+    display:flex;flex-direction:column;justify-content:center;align-items:flex-start;
+    padding:0 36px; gap:6px;
+    transform:translateY(-100%); transition:transform .45s cubic-bezier(.7,0,.2,1);
+  }
+  .mobile-menu.open{transform:translateY(0);}
+  .mobile-menu a{
+    font-family:'Fraunces',serif;font-size:34px;color:#fff;padding:14px 0;font-weight:600;
+    border-bottom:1px solid rgba(255,255,255,0.08); width:100%;
+  }
+  .mobile-menu .btn{margin-top:24px;}
+
+  /* =================== HERO =================== */
+  .hero{
+    background:radial-gradient(ellipse 120% 90% at 15% 0%,var(--navy) 0%, var(--navy-deep) 55%, #0a1c3d 100%);
+    padding:170px 0 140px; overflow:hidden; position:relative;
+  }
+  .hero::before{
+    content:"";position:absolute;inset:0;
+    background-image:
+      radial-gradient(circle at 82% 18%, rgba(77,116,224,0.28), transparent 45%),
+      radial-gradient(circle at 100% 80%, rgba(240,130,74,0.10), transparent 40%);
+    pointer-events:none;
+  }
+  .hero::after{
+    content:""; position:absolute; left:0; right:0; bottom:0; height:120px;
+    background:linear-gradient(to bottom, transparent, rgba(245,248,252,0.5));
+    pointer-events:none;
+  }
+  .hero-grid{
+    position:relative; z-index:2; display:grid; grid-template-columns:1.05fr 0.95fr; gap:50px; align-items:center;
+  }
+  .hero-badge{
+    display:inline-flex;align-items:center;gap:9px;padding:8px 16px;border-radius:100px;
+    background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.14);
+    color:#cdd9f7; font-size:13px; font-weight:600; margin-bottom:26px;
+  }
+  .hero-badge span.dot{width:7px;height:7px;border-radius:50%;background:var(--orange);}
+  .hero h1{
+    font-size:clamp(40px,5.4vw,68px); color:#fff; font-weight:600;
+  }
+  .hero h1 em{font-style:normal;color:#a9c0f9;}
+  .hero-sub{margin-top:26px;color:#c3cfec;font-size:18px;line-height:1.65;max-width:520px;}
+  .hero-ctas{margin-top:38px;display:flex;gap:16px;flex-wrap:wrap;}
+  .hero-stats{display:flex;gap:40px;margin-top:56px;flex-wrap:wrap;}
+  .hero-stat b{
+    display:block;font-family:'Fraunces',serif;font-size:32px;color:#fff;font-weight:600;
+  }
+  .hero-stat span{color:#93a3ca;font-size:13.5px;font-weight:600;}
+
+  /* hero visual: code window */
+  .hero-visual{position:relative;display:flex;justify-content:center;align-items:center;height:440px;}
+  .orbit-ring{
+    position:absolute;width:400px;height:400px;border-radius:50%;
+    border:1px dashed rgba(120,150,230,0.28);
+    animation:spin 40s linear infinite;
+  }
+  .orbit-ring.r2{width:310px;height:310px;border-color:rgba(255,122,41,0.2);animation-duration:28s;animation-direction:reverse;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  .code-window{
+    position:relative; z-index:3; width:340px; background:#0e1f45;
+    border-radius:16px; border:1px solid rgba(255,255,255,0.12);
+    box-shadow:0 40px 80px -30px rgba(0,0,0,0.6);
+    animation:float 6s ease-in-out infinite;
+  }
+  @keyframes float{0%,100%{transform:translateY(0px);}50%{transform:translateY(-14px);}}
+  .code-bar{display:flex;gap:6px;padding:12px 14px;border-bottom:1px solid rgba(255,255,255,0.08);}
+  .code-bar i{width:9px;height:9px;border-radius:50%;display:block;}
+  .code-bar i:nth-child(1){background:#ff5f57;}
+  .code-bar i:nth-child(2){background:#febc2e;}
+  .code-bar i:nth-child(3){background:#28c840;}
+  .code-body{padding:20px;font-family:'Courier New',monospace;font-size:12.5px;line-height:1.9;color:#8fa8e8;}
+  .code-body .c-blue{color:#6da8ff;}
+  .code-body .c-orange{color:#ff9d5c;}
+  .code-body .c-white{color:#e8edfb;}
+  .type-line{overflow:hidden;white-space:nowrap;width:0;animation:typeLine 2.6s steps(30,end) 0.6s forwards;}
+  @keyframes typeLine{to{width:100%;}}
+  .float-chip{
+    position:absolute; background:#fff; border-radius:12px; padding:10px 14px;
+    box-shadow:var(--shadow-soft); display:flex; align-items:center; gap:8px; font-size:12.5px; font-weight:700;
+    color:var(--navy-deep); z-index:4; animation:float 5s ease-in-out infinite;
+  }
+  .float-chip.a{top:8%; left:-4%; animation-delay:.4s;}
+  .float-chip.b{bottom:6%; right:-6%; animation-delay:1.2s;}
+  .float-chip .dot{width:8px;height:8px;border-radius:50%;background:#22c55e;}
+
+  /* hero particles */
+  .particle-field{position:absolute; inset:0; overflow:hidden; pointer-events:none; z-index:1;}
+  .particle{
+    position:absolute; border-radius:50%; opacity:.7;
+    animation:particleFloat 9s ease-in-out infinite;
+  }
+  .particle.p1{width:8px;height:8px; background:var(--orange); top:22%; left:8%; animation-duration:8s;}
+  .particle.p2{width:5px;height:5px; background:#8fb0ff; top:65%; left:14%; animation-duration:11s; animation-delay:1s;}
+  .particle.p3{width:6px;height:6px; background:var(--orange); top:15%; left:46%; animation-duration:10s; animation-delay:2s;}
+  .particle.p4{width:4px;height:4px; background:#8fb0ff; top:80%; left:38%; animation-duration:7.5s; animation-delay:.5s;}
+  .particle.p5{width:7px;height:7px; background:#8fb0ff; top:38%; left:92%; animation-duration:9.5s; animation-delay:1.5s;}
+  .particle.p6{width:5px;height:5px; background:var(--orange); top:8%; left:70%; animation-duration:8.5s; animation-delay:2.5s;}
+  @keyframes particleFloat{
+    0%,100%{transform:translate(0,0); opacity:.3;}
+    50%{transform:translate(14px,-22px); opacity:.85;}
+  }
+
+  /* scroll cue */
+  .scroll-cue{
+    position:absolute; left:50%; bottom:28px; transform:translateX(-50%); z-index:2;
+    width:26px; height:42px; border:2px solid rgba(255,255,255,0.35); border-radius:16px;
+    display:flex; justify-content:center; padding-top:8px;
+  }
+  .scroll-cue span{
+    width:4px;height:8px;border-radius:2px;background:var(--orange);
+    animation:scrollCue 1.8s ease-in-out infinite;
+  }
+  @keyframes scrollCue{
+    0%{transform:translateY(0); opacity:1;}
+    70%{transform:translateY(12px); opacity:0;}
+    71%{transform:translateY(0); opacity:0;}
+    100%{transform:translateY(0); opacity:1;}
+  }
+  @media(max-width:768px){.scroll-cue{display:none;}}
+
+  /* =================== DIVISION CARDS =================== */
+  .divisions{background:var(--paper); padding:100px 0;}
+  .division-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;}
+  .division-card{
+    position:relative; overflow:hidden; border-radius:var(--radius-lg); padding:44px 40px;
+    transition:transform .35s ease, box-shadow .35s ease;
+  }
+  .division-card:hover{transform:translateY(-8px);}
+  .division-card.academy{
+    background:linear-gradient(150deg,var(--navy-deep) 0%, var(--navy) 60%, #123a86 100%); color:#fff;
+    box-shadow:0 30px 60px -30px rgba(7,27,63,0.55);
+  }
+  .division-card.digital{
+    background:#fff; border:1px solid var(--line); color:var(--ink);
+    box-shadow:var(--shadow-tight);
+  }
+  .division-card .tag{
+    display:inline-block;font-size:12px;font-weight:800;letter-spacing:0.08em;padding:6px 14px;
+    border-radius:100px;margin-bottom:22px;
+  }
+  .division-card.academy .tag{background:rgba(255,255,255,0.12);color:#cfe0ff;}
+  .division-card.digital .tag{background:var(--paper-2);color:var(--blue);}
+  .division-card h3{font-size:28px;margin-bottom:10px;}
+  .division-card.academy h3{color:#fff;}
+  .division-card.digital h3{color:var(--navy-deep);}
+  .division-card .title-line{font-size:16px;font-weight:700;margin-bottom:14px;}
+  .division-card.academy .title-line{color:var(--orange);}
+  .division-card.digital .title-line{color:var(--orange);}
+  .division-card p.desc{font-size:15.5px;line-height:1.65;margin-bottom:30px;max-width:420px;}
+  .division-card.academy p.desc{color:#c3cfec;}
+  .division-card.digital p.desc{color:var(--muted);}
+  .division-card .deco{
+    position:absolute; width:220px;height:220px;border-radius:50%;
+    filter:blur(10px); opacity:.5; pointer-events:none;
+  }
+  .division-card.academy .deco{background:radial-gradient(circle,rgba(47,99,240,0.5),transparent 70%); top:-60px; right:-60px;}
+  .division-card.digital .deco{background:radial-gradient(circle,rgba(255,122,41,0.12),transparent 70%); bottom:-70px; right:-40px;}
+
+  @media(max-width:860px){.division-grid{grid-template-columns:1fr;}}
+
+  /* =================== ACADEMY SECTION =================== */
+  .academy-section{background:#fff;}
+  .academy-top{display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:center; margin-bottom:80px;}
+  .exp-badge{
+    display:inline-flex; align-items:center; gap:14px; padding:16px 22px; border-radius:18px;
+    background:var(--paper); border:1px solid var(--line); margin-top:26px;
+  }
+  .exp-badge b{font-family:'Fraunces',serif; font-size:26px; color:var(--navy-deep); display:block;}
+  .exp-badge span{font-size:13px; color:var(--muted);}
+  .academy-visual{
+    background:linear-gradient(160deg,var(--navy-deep),var(--navy));
+    border-radius:var(--radius-lg); padding:40px; min-height:320px; position:relative; overflow:hidden;
+  }
+  .academy-visual .grid-line{
+    position:absolute; inset:0;
+    background-image:linear-gradient(rgba(255,255,255,0.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.05) 1px,transparent 1px);
+    background-size:34px 34px;
+  }
+  .stat-card-row{position:relative; z-index:2; display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .mini-stat{background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14); border-radius:14px; padding:20px;}
+  .mini-stat b{font-family:'Fraunces',serif; font-size:30px; color:#fff; display:block;}
+  .mini-stat span{color:#a9bbe8; font-size:12.5px; font-weight:600;}
+
+  .why-grid{display:grid;grid-template-columns:repeat(5,1fr); gap:20px;}
+  .why-card{
+    background:var(--paper); border-radius:var(--radius-md); padding:28px 22px; border:1px solid var(--line);
+    transition:transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+  }
+  .why-card:hover{transform:translateY(-6px); box-shadow:var(--shadow-tight); border-color:transparent;}
+  .why-icon{
+    width:44px;height:44px;border-radius:12px;background:var(--navy-deep);
+    display:flex;align-items:center;justify-content:center;margin-bottom:18px;
+  }
+  .why-icon svg{width:22px;height:22px;stroke:var(--orange);}
+  .why-card h4{font-size:16.5px;color:var(--navy-deep);font-family:'Manrope',sans-serif;font-weight:700;}
+  .why-card p{margin-top:8px;font-size:14px;color:var(--muted);line-height:1.55;}
+  @media(max-width:1024px){.why-grid{grid-template-columns:repeat(3,1fr);} .academy-top{grid-template-columns:1fr;}}
+  @media(max-width:640px){.why-grid{grid-template-columns:repeat(2,1fr);}}
+
+  /* =================== COURSE CARD =================== */
+  .course-section{background:var(--paper); }
+  .course-card{
+    background:#fff; border-radius:28px; overflow:hidden; box-shadow:var(--shadow-soft);
+    display:grid; grid-template-columns:1.15fr 0.85fr;
+  }
+  .course-left{padding:52px;}
+  .course-badge{
+    display:inline-flex; align-items:center; gap:8px; background:var(--paper-2); color:var(--blue);
+    padding:7px 14px; border-radius:100px; font-size:12.5px; font-weight:700;
+  }
+  .course-left h3{font-size:38px; margin-top:18px; color:var(--navy-deep);}
+  .course-left .sub{color:var(--orange); font-weight:700; margin-top:6px; font-size:15px;}
+  .course-left p.desc{margin-top:16px; color:var(--muted); font-size:15.5px; line-height:1.65; max-width:480px;}
+  .highlight-chip-row{display:flex; flex-wrap:wrap; gap:10px; margin-top:28px;}
+  .highlight-chip{
+    background:var(--paper); border:1px solid var(--line); padding:9px 15px; border-radius:100px;
+    font-size:13px; font-weight:700; color:var(--navy-deep);
+  }
+  .two-col-list{display:grid; grid-template-columns:1fr 1fr; gap:34px; margin-top:36px;}
+  .two-col-list h5{font-size:13px; letter-spacing:0.04em; color:var(--navy-deep); font-weight:800; margin-bottom:14px; font-family:'Manrope',sans-serif;}
+  .check-list li{display:flex; align-items:flex-start; gap:10px; font-size:14.5px; color:var(--muted); padding:6px 0; line-height:1.4;}
+  .check-list li svg{flex-shrink:0; margin-top:3px; width:16px;height:16px;stroke:var(--orange);}
+
+  .course-right{
+    background:linear-gradient(165deg,var(--navy-deep),var(--navy) 55%, #123a86);
+    padding:52px 44px; color:#fff; display:flex; flex-direction:column; justify-content:center;
+    position:relative; overflow:hidden;
+  }
+  .course-right .offer-tag{
+    align-self:flex-start; background:var(--orange); color:#fff; font-size:11.5px; font-weight:800;
+    letter-spacing:0.05em; padding:7px 14px; border-radius:100px; margin-bottom:18px;
+  }
+  .fee-row{display:flex; align-items:baseline; gap:10px;}
+  .fee-row b{font-family:'Fraunces',serif; font-size:52px; font-weight:600;}
+  .fee-row span{color:#a9bbe8; font-size:14px;}
+  .course-right .limited{color:#ffcfa8; font-size:13.5px; font-weight:700; margin-top:8px;}
+  .course-right .btn{margin-top:30px;}
+  .course-right ul.mini{margin-top:30px; border-top:1px solid rgba(255,255,255,0.12); padding-top:24px;}
+  .course-right ul.mini li{display:flex; justify-content:space-between; font-size:13.5px; color:#c3cfec; padding:6px 0;}
+  .course-right ul.mini li b{color:#fff; font-weight:700;}
+
+  @media(max-width:900px){.course-card{grid-template-columns:1fr;} .course-left{padding:36px 28px;} .course-right{padding:36px 28px;} .two-col-list{grid-template-columns:1fr;}}
+
+  /* =================== DIGITAL HERO =================== */
+  .digital-hero{
+    background:linear-gradient(180deg,#f8fafd 0%, #fff 100%);
+    padding-top:0;
+  }
+  .digital-hero-inner{display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:center;}
+  .digital-hero h2{font-size:clamp(32px,4.4vw,48px); color:var(--navy-deep); margin-top:14px;}
+  .digital-hero p.lead{margin-top:20px; color:var(--muted); font-size:17px; line-height:1.65; max-width:480px;}
+  .digital-hero .hero-ctas{margin-top:32px;}
+
+  @media(max-width:900px){
+    .hero-grid,.digital-hero-inner{grid-template-columns:1fr; gap:36px;}
+    .hero-visual{height:360px;}
+    .code-window,.mock-laptop{width:min(340px,100%);}
+    .orbit-ring{width:340px;height:340px;}
+    .orbit-ring.r2{width:270px;height:270px;}
+    .float-chip.a{left:0;}
+    .float-chip.b{right:0;}
+  }
+
+  .mock-wrap{position:relative; display:flex; justify-content:center; align-items:center; min-height:380px;}
+  .mock-laptop{
+    width:340px; border-radius:14px 14px 4px 4px; background:var(--navy-deep); padding:10px 10px 22px;
+    box-shadow:0 40px 70px -30px rgba(7,27,63,0.4);
+  }
+  .mock-screen{background:#fff; border-radius:6px; overflow:hidden;}
+  .mock-topbar{background:var(--paper); display:flex; gap:5px; padding:8px 10px;}
+  .mock-topbar i{width:7px;height:7px;border-radius:50%; background:var(--line);}
+  .mock-body{padding:14px;}
+  .mock-nav-fake{display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;}
+  .mock-bar{height:8px; background:var(--paper-2); border-radius:4px;}
+  .mock-hero-block{height:60px; background:linear-gradient(120deg,var(--navy-deep),var(--blue)); border-radius:8px; margin-bottom:10px;}
+  .mock-line{height:6px; background:var(--paper-2); border-radius:3px; margin-bottom:7px;}
+  .mock-line.short{width:60%;}
+  .mock-cards-row{display:flex; gap:6px; margin-top:10px;}
+  .mock-mini-card{flex:1; height:36px; background:var(--paper); border:1px solid var(--line); border-radius:6px;}
+  .mock-phone{
+    position:absolute; right:-6%; bottom:-8%; width:110px; background:var(--navy-deep); border-radius:20px; padding:8px;
+    box-shadow:0 30px 50px -20px rgba(7,27,63,0.5); animation:float 5.5s ease-in-out infinite;
+  }
+  .mock-phone .mock-screen{border-radius:12px;}
+  .mock-phone .mock-body{padding:8px;}
+
+  /* =================== SERVICES =================== */
+  .services-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px;}
+  .service-card{
+    background:#fff; border:1px solid var(--line); border-radius:var(--radius-md); padding:30px;
+    transition:transform .3s ease, box-shadow .3s ease;
+  }
+  .service-card:hover{transform:translateY(-6px); box-shadow:var(--shadow-soft);}
+  .service-card.upcoming{background:var(--paper); border-style:dashed;}
+  .service-card.featured-lang{
+    border-color:transparent; position:relative; overflow:hidden;
+    background:linear-gradient(180deg,#fff 0%, var(--paper-2) 100%);
+    box-shadow:0 18px 40px -22px rgba(58,99,212,0.45);
+  }
+  .service-card.featured-lang::before{
+    content:""; position:absolute; top:0; left:0; right:0; height:4px;
+    background:linear-gradient(90deg,var(--blue),var(--orange));
+  }
+  .service-icon{
+    width:46px;height:46px;border-radius:12px; background:var(--paper-2); display:flex; align-items:center; justify-content:center; margin-bottom:18px;
+  }
+  .service-icon svg{width:22px;height:22px;stroke:var(--blue);}
+  .service-card h4{font-size:17.5px; color:var(--navy-deep); font-family:'Manrope',sans-serif; font-weight:700;}
+  .service-card p{margin-top:9px; font-size:14px; color:var(--muted); line-height:1.55;}
+  .upcoming-tag{
+    display:inline-block; margin-top:14px; font-size:11px; font-weight:800; letter-spacing:0.04em;
+    background:var(--orange); color:#fff; padding:5px 11px; border-radius:100px;
+  }
+  @media(max-width:900px){.services-grid{grid-template-columns:1fr 1fr;}}
+  @media(max-width:600px){.services-grid{grid-template-columns:1fr;}}
+
+  /* =================== PRICING =================== */
+  .pricing-section{background:var(--navy-deep); color:#fff; position:relative; overflow:hidden;}
+  .pricing-section::before{
+    content:""; position:absolute; inset:0;
+    background:radial-gradient(circle at 20% 20%, rgba(47,99,240,0.25), transparent 45%);
+  }
+  .pricing-section .section-head h2{color:#fff;}
+  .pricing-section .section-head p{color:#a9bbe8;}
+  .pricing-grid{
+    position:relative; z-index:2; display:grid; grid-template-columns:repeat(3,1fr); gap:22px; margin-top:50px;
+  }
+  .price-card{
+    background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.12); border-radius:20px;
+    padding:32px 28px; display:flex; flex-direction:column; transition:transform .3s ease, background .3s ease, border-color .3s ease;
+  }
+  .price-card:hover{transform:translateY(-6px); background:rgba(255,255,255,0.07);}
+  .price-card.popular{
+    background:#fff; color:var(--ink); border-color:transparent; position:relative;
+    box-shadow:0 40px 70px -25px rgba(255,122,41,0.35); transform:scale(1.03);
+  }
+  .price-card.popular:hover{transform:scale(1.03) translateY(-6px);}
+  .popular-badge{
+    position:absolute; top:-14px; left:50%; transform:translateX(-50%);
+    background:var(--orange); color:#fff; font-size:11.5px; font-weight:800; letter-spacing:0.05em;
+    padding:7px 18px; border-radius:100px; white-space:nowrap;
+  }
+  .price-card h4{font-size:20px; margin-top:8px; font-family:'Manrope',sans-serif; font-weight:800;}
+  .contact-price{
+    display:flex; align-items:center; gap:9px; font-family:'Fraunces',serif; font-size:19px; font-weight:600;
+    margin-top:14px; color:#fff;
+  }
+  .contact-price svg{width:17px;height:17px; stroke:var(--orange); flex-shrink:0;}
+  .price-card.popular .contact-price{color:var(--navy-deep);}
+  .price-card.popular .contact-price svg{stroke:var(--orange-dark);}
+  .price-list{margin-top:22px; flex-grow:1;}
+  .price-list li{
+    display:flex; align-items:flex-start; gap:9px; font-size:13.8px; padding:6px 0; color:#c3cfec; line-height:1.4;
+  }
+  .price-card.popular .price-list li{color:var(--muted);}
+  .price-list li svg{flex-shrink:0; margin-top:3px; width:15px;height:15px; stroke:var(--orange);}
+  .price-suit{font-size:12.5px; color:#8fa2cf; margin-top:16px; line-height:1.5;}
+  .price-card.popular .price-suit{color:#6b7a9c;}
+  .price-card .btn{margin-top:22px;}
+
+  @media(max-width:1024px){.pricing-grid{grid-template-columns:1fr 1fr;}}
+  @media(max-width:640px){.pricing-grid{grid-template-columns:1fr;} .price-card.popular{transform:none;} .price-card.popular:hover{transform:translateY(-6px);}}
+
+  .quote-cta{
+    position:relative; z-index:2; margin-top:60px; text-align:center; padding:40px; border-radius:20px;
+    background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.12);
+  }
+  .quote-cta h3{color:#fff; font-size:24px;}
+  .quote-cta p{color:#a9bbe8; margin-top:10px;}
+  .quote-cta .btn{margin-top:22px;}
+
+  /* =================== WHY DIGITAL + BUILT FOR ================= */
+  .feature-strip{display:grid; grid-template-columns:repeat(4,1fr); gap:20px;}
+  .feature-item{text-align:left; padding:26px 22px; border-radius:var(--radius-md); background:var(--paper); border:1px solid var(--line);}
+  .feature-item svg{width:26px; height:26px; stroke:var(--orange); margin-bottom:14px;}
+  .feature-item h4{font-size:15.5px; color:var(--navy-deep); font-family:'Manrope',sans-serif; font-weight:700;}
+  @media(max-width:860px){.feature-strip{grid-template-columns:1fr 1fr;}}
+
+  .built-for{
+    margin-top:90px; background:linear-gradient(150deg,var(--navy-deep),var(--navy)); border-radius:28px;
+    padding:60px; display:grid; grid-template-columns:1fr 1fr; gap:50px; align-items:center; color:#fff;
+  }
+  .built-for h3{font-size:30px; color:#fff;}
+  .built-for ul{margin-top:22px;}
+  .built-for ul li{display:flex; gap:12px; align-items:flex-start; padding:9px 0; font-size:15px; color:#c3cfec;}
+  .built-for ul li svg{stroke:var(--orange); width:18px;height:18px; margin-top:2px; flex-shrink:0;}
+  .built-visual{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
+  .built-stat{background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14); border-radius:16px; padding:24px; text-align:center;}
+  .built-stat b{font-family:'Fraunces',serif; font-size:30px; display:block;}
+  .built-stat span{font-size:12px; color:#a9bbe8; font-weight:600;}
+  @media(max-width:860px){.built-for{grid-template-columns:1fr; padding:36px 26px;}}
+
+  /* =================== ABOUT =================== */
+  .about-section{background:var(--paper);}
+  .about-grid{display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-top:50px;}
+  .about-card{background:#fff; border-radius:var(--radius-lg); padding:38px; border:1px solid var(--line);}
+  .about-card .mark{
+    width:48px;height:48px;border-radius:12px; display:flex; align-items:center; justify-content:center; margin-bottom:20px;
+    font-family:'Fraunces',serif; font-weight:700; color:#fff; font-size:18px;
+  }
+  .about-card.a1 .mark{background:var(--navy-deep);}
+  .about-card.a2 .mark{background:var(--orange);}
+  .about-card h4{font-size:21px; color:var(--navy-deep);}
+  .about-card p{margin-top:12px; color:var(--muted); font-size:15px; line-height:1.65;}
+  @media(max-width:768px){.about-grid{grid-template-columns:1fr;}}
+
+  /* =================== CONTACT =================== */
+  .contact-section{
+    background:linear-gradient(160deg,var(--navy-deep) 0%, var(--navy) 60%, #0c2a5e 100%); color:#fff; position:relative; overflow:hidden;
+  }
+  .contact-section::before{
+    content:""; position:absolute; inset:0;
+    background:radial-gradient(circle at 85% 15%, rgba(255,122,41,0.14), transparent 40%);
+  }
+  .contact-inner{position:relative; z-index:2; display:grid; grid-template-columns:1fr 1fr; gap:60px;}
+  .contact-inner h2{font-size:clamp(30px,4vw,44px); color:#fff;}
+  .contact-inner p.lead{color:#c3cfec; margin-top:16px; font-size:16.5px; line-height:1.6; max-width:440px;}
+  .contact-methods{margin-top:36px; display:flex; flex-direction:column; gap:16px;}
+  .contact-method{
+    display:flex; align-items:center; gap:14px; background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14);
+    padding:16px 18px; border-radius:14px; transition:.25s ease;
+  }
+  .contact-method:hover{background:rgba(255,255,255,0.11); transform:translateX(4px);}
+  .contact-method .ic{
+    width:40px;height:40px;border-radius:10px; background:var(--orange); display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .contact-method .ic svg{width:19px;height:19px; stroke:#fff;}
+  .contact-method b{display:block; font-size:14.5px;}
+  .contact-method span{font-size:12.5px; color:#a9bbe8;}
+
+  .contact-form{
+    background:#fff; border-radius:var(--radius-lg); padding:40px; color:var(--ink);
+    box-shadow:0 40px 80px -30px rgba(0,0,0,0.4);
+  }
+  .form-row{display:grid; grid-template-columns:1fr 1fr; gap:16px;}
+  .field{margin-bottom:18px;}
+  .field label{display:block; font-size:12.5px; font-weight:700; color:var(--navy-deep); margin-bottom:7px;}
+  .field input, .field select, .field textarea{
+    width:100%; padding:13px 14px; border-radius:10px; border:1.5px solid var(--line); font-family:inherit;
+    font-size:14.5px; background:var(--paper); transition:border-color .2s ease, background .2s ease;
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{
+    outline:none; border-color:var(--blue); background:#fff;
+  }
+  .field textarea{resize:vertical; min-height:90px;}
+  @media(max-width:900px){.contact-inner{grid-template-columns:1fr;} .form-row{grid-template-columns:1fr;}}
+
+  /* =================== FOOTER =================== */
+  footer{background:#050f26; color:#93a3ca; padding:70px 0 26px;}
+  .footer-grid{display:grid; grid-template-columns:1.4fr 1fr 1fr 1.1fr; gap:40px;}
+  .footer-brand .brand-name{color:#fff;}
+  .footer-brand p.tag{margin-top:14px; font-size:14px; color:#8296c2; max-width:260px; line-height:1.5;}
+  .footer-col h5{color:#fff; font-size:13.5px; font-weight:700; margin-bottom:16px; letter-spacing:0.02em;}
+  .footer-col ul li{padding:6px 0;}
+  .footer-col a{font-size:14px; color:#93a3ca; transition:color .2s ease;}
+  .footer-col a:hover{color:var(--orange);}
+  .footer-bottom{
+    margin-top:50px; padding-top:24px; border-top:1px solid rgba(255,255,255,0.08);
+    display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; font-size:13px; color:#6b7a9c;
+  }
+  @media(max-width:860px){.footer-grid{grid-template-columns:1fr 1fr; gap:30px;}}
+  @media(max-width:560px){.footer-grid{grid-template-columns:1fr;}}
+
+  /* =================== SCROLL PROGRESS =================== */
+  .scroll-progress{
+    position:fixed; top:0; left:0; height:3px; width:0%; z-index:2000;
+    background:linear-gradient(90deg,var(--blue),var(--orange));
+    transition:width .1s ease-out;
+  }
+
+  /* =================== DECORATIVE MIXED-COLOR BLOBS =================== */
+  .blob-field{position:absolute; inset:0; overflow:hidden; pointer-events:none; z-index:-1;}
+  .blob{
+    position:absolute; border-radius:50%; filter:blur(60px); opacity:.35;
+    animation:blobDrift 16s ease-in-out infinite;
+  }
+  .blob.blob-blue{background:radial-gradient(circle, rgba(58,99,212,0.55), transparent 70%);}
+  .blob.blob-orange{background:radial-gradient(circle, rgba(240,130,74,0.4), transparent 70%);}
+  .blob.blob-mix{background:radial-gradient(circle, rgba(58,99,212,0.35), rgba(240,130,74,0.25) 55%, transparent 75%);}
+  @keyframes blobDrift{
+    0%,100%{transform:translate(0,0) scale(1);}
+    33%{transform:translate(30px,-24px) scale(1.08);}
+    66%{transform:translate(-24px,18px) scale(0.95);}
+  }
+
+  /* =================== BUTTON SHINE SWEEP =================== */
+  .btn{position:relative; overflow:hidden;}
+  .btn::before{
+    content:""; position:absolute; top:0; left:-60%; width:40%; height:100%;
+    background:linear-gradient(115deg, transparent, rgba(255,255,255,0.45), transparent);
+    transform:skewX(-20deg); transition:left .6s ease;
+  }
+  .btn:hover::before{left:130%;}
+  .btn-ghost::before,.btn-ghost-light::before{display:none;}
+
+  /* =================== ICON MICRO-INTERACTIONS =================== */
+  .why-icon, .service-icon, .feature-item svg{transition:transform .4s cubic-bezier(.34,1.56,.64,1);}
+  .why-card:hover .why-icon{transform:rotate(-8deg) scale(1.08);}
+  .service-card:hover .service-icon{transform:rotate(6deg) scale(1.1);}
+  .feature-item:hover svg{transform:scale(1.15) rotate(-6deg);}
+
+  /* =================== MIXED-COLOR GLOW ON HOVER =================== */
+  .why-card, .service-card, .price-card, .division-card, .project-card, .about-card{
+    transition:transform .35s ease, box-shadow .35s ease, border-color .35s ease;
+  }
+  .why-card:hover{box-shadow:0 22px 44px -22px rgba(58,99,212,0.35), 0 10px 22px -14px rgba(240,130,74,0.25);}
+  .service-card:hover{box-shadow:0 22px 44px -22px rgba(58,99,212,0.32), 0 10px 22px -14px rgba(240,130,74,0.22);}
+  .about-card:hover{transform:translateY(-6px); box-shadow:0 24px 48px -22px rgba(58,99,212,0.3);}
+  .price-card:hover{box-shadow:0 22px 46px -20px rgba(240,130,74,0.3);}
+
+  /* count-up number pop */
+  .count-pop{display:inline-block;}
+
+  /* =====================================================================
+     SKILLFUSION 3D ENHANCEMENT LAYER — CSS
+     Purely additive. Safe to delete this whole block (plus the matching
+     HTML canvas/cursor elements and the closing <script> block) to fully
+     revert to the pre-3D version of the site.
+     ===================================================================== */
+  .sf3d-canvas{
+    position:absolute; inset:0; width:100%; height:100%; display:block; pointer-events:none;
+  }
+  .sf3d-canvas.sf3d-layered{ z-index:-1; }
+
+  .digital-hero-inner{ perspective:1200px; }
+  .mock-wrap{ transform-style:preserve-3d; }
+
+  @media (prefers-reduced-motion: reduce){
+    .sf3d-canvas{ display:none !important; }
+  }
+
+  .wa-float{
+    position:fixed; bottom:24px; right:24px; z-index:900; width:60px;height:60px; border-radius:50%;
+    background:#25D366; display:flex; align-items:center; justify-content:center;
+    box-shadow:0 14px 30px -8px rgba(37,211,102,0.65);
+    animation:pulseWa 2.6s ease-in-out infinite;
+  }
+  .wa-float svg{width:30px;height:30px;fill:#fff;}
+  @keyframes pulseWa{0%,100%{transform:scale(1);}50%{transform:scale(1.08);}}
+
+  /* generic grid helpers */
+  .flex-between{display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;}
+
+  /* =================== QUOTE ROTATOR =================== */
+  .quote-block{
+    display:flex; align-items:flex-start; gap:16px; max-width:640px;
+  }
+  .quote-block .mark{
+    font-family:'Fraunces',serif; font-size:44px; line-height:0.6; color:var(--orange); flex-shrink:0; margin-top:14px; opacity:.85;
+  }
+  .quote-text{
+    font-family:'Fraunces',serif; font-style:italic; font-size:19px; line-height:1.55;
+    transition:opacity .5s ease, transform .5s ease; opacity:1; transform:translateY(0);
+  }
+  .quote-text.fading{opacity:0; transform:translateY(6px);}
+  .quote-light .quote-text{color:#dbe4fb;}
+  .quote-dark .quote-text{color:var(--navy-deep);}
+  .quote-strip{
+    padding:22px 26px; border-radius:16px; margin:44px 0 0;
+  }
+  .quote-strip.on-navy{background:rgba(255,255,255,0.06); border:1px solid rgba(255,255,255,0.14);}
+  .quote-strip.on-light{background:var(--paper); border:1px solid var(--line);}
+  .quote-strip.on-white{background:#fff; border:1px solid var(--line); box-shadow:var(--shadow-tight);}
+
+  /* =====================================================================
+     SKILLFUSION MASSIVE PARTICLE FIELD — CSS
+     Purely additive, fully independent of the SF3D layer above and of the
+     rest of the site. Safe to delete this whole block (plus the matching
+     #sf-particles-canvas element and its closing <script> block near the
+     end of the document) to fully revert — nothing else depends on it.
+     ===================================================================== */
+  #sf-particles-canvas{
+    position:fixed; inset:0; width:100vw; height:100vh;
+    z-index:6; display:block; pointer-events:none;
+  }
+  @media (prefers-reduced-motion: reduce){
+    #sf-particles-canvas{ display:none !important; }
+  }
+
+  /* =====================================================================
+     SEO / ACCESSIBILITY UTILITIES — CSS
+     Purely additive. .sr-only visually hides content while keeping it
+     readable to screen readers and crawlers (used for the skip link and
+     for section headings that already have a styled visual label).
+     Safe to delete if this content is no longer used anywhere.
+     ===================================================================== */
+  .sr-only{
+    position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+  }
+  .skip-link{
+    position:absolute; left:12px; top:-60px; z-index:3000;
+    background:var(--navy-deep); color:#fff; padding:12px 18px;
+    border-radius:10px; font-weight:700; font-size:14px;
+    transition:top .2s ease;
+  }
+  .skip-link:focus{ top:12px; }
+</style>
+</head>
+<body>
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<div class="scroll-progress" id="scroll-progress"></div>
+
+<!-- ============ SKILLFUSION MASSIVE PARTICLE FIELD (additive, deletable) ============ -->
+<canvas id="sf-particles-canvas" aria-hidden="true"></canvas>
+
+<!-- ============ HEADER ============ -->
+<header id="site-header">
+  <div class="container nav-wrap">
+    <a href="#home" class="brand">
+      <span class="brand-name">SKILLFUSION</span>
+      <span class="brand-sub">ACADEMY&nbsp;|&nbsp;DIGITAL</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#academy">Academy</a>
+      <a href="#digital">Digital Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="#contact" class="btn btn-orange btn-sm nav-desktop-only">Get Started</a>
+      <button class="hamburger" id="hamburger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#home">Home</a>
+  <a href="#academy">Academy</a>
+  <a href="#digital">Digital Services</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-orange">Get Started</a>
+</div>
+
+<main id="main-content">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="particle-field">
+    <span class="particle p1"></span>
+    <span class="particle p2"></span>
+    <span class="particle p3"></span>
+    <span class="particle p4"></span>
+    <span class="particle p5"></span>
+    <span class="particle p6"></span>
+  </div>
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-badge reveal in"><span class="dot"></span> Two divisions. One mission.</div>
+      <h1 class="reveal in">Learn Skills.<br>Build Solutions.<br><em>Grow Together.</em></h1>
+      <p class="hero-sub reveal in">SkillFusion combines practical programming education with professional digital solutions — helping students build strong technical foundations and businesses build a stronger online presence.</p>
+      <div class="hero-ctas reveal in">
+        <a href="#academy" class="btn btn-orange">Explore Academy</a>
+        <a href="#digital" class="btn btn-ghost-light">Explore Digital Services</a>
+      </div>
+      <div class="hero-stats reveal in">
+        <div class="hero-stat"><b data-countup="18" data-suffix="+">0</b><span>Years Industry Experience</span></div>
+        <div class="hero-stat"><b data-countup="100" data-suffix="+">0</b><span>Practice Programs</span></div>
+        <div class="hero-stat"><b data-countup="7" data-suffix="">0</b><span>Digital Service Lines</span></div>
+      </div>
+      <div class="quote-strip on-navy quote-light reveal in">
+        <div class="quote-block">
+          <span class="mark">"</span>
+          <span class="quote-text" data-quote-slot="hero">The best time to start learning was yesterday. The next best time is now.</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual reveal in">
+      <canvas id="sf3d-hero-canvas" class="sf3d-canvas" aria-hidden="true"></canvas>
+      <div class="orbit-ring"></div>
+      <div class="orbit-ring r2"></div>
+      <div class="float-chip a"><span class="dot"></span> Course enrolling now</div>
+      <div class="code-window">
+        <div class="code-bar"><i></i><i></i><i></i></div>
+        <div class="code-body">
+          <div><span class="c-blue">function</span> <span class="c-white">buildFuture</span>() {</div>
+          <div class="type-line">&nbsp;&nbsp;<span class="c-orange">learn</span>(<span class="c-white">"C Programming"</span>);</div>
+          <div>&nbsp;&nbsp;<span class="c-orange">build</span>(<span class="c-white">"business.website"</span>);</div>
+          <div>&nbsp;&nbsp;<span class="c-blue">return</span> <span class="c-white">growth;</span></div>
+          <div>}</div>
+        </div>
+      </div>
+      <div class="float-chip b">🚀 12 sites launched</div>
+    </div>
+  </div>
+  <a href="#academy" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ============ DIVISION CARDS ============ -->
+<section class="divisions">
+  <div class="blob-field">
+    <div class="blob blob-blue" style="width:340px;height:340px; top:-100px; left:-80px;"></div>
+    <div class="blob blob-orange" style="width:280px;height:280px; bottom:-90px; right:-60px; animation-delay:3s;"></div>
+  </div>
+  <div class="container">
+    <h2 class="sr-only">SkillFusion's Two Divisions: Academy &amp; Digital Services</h2>
+    <div class="division-grid reveal-stagger">
+      <div class="division-card academy">
+        <div class="deco"></div>
+        <span class="tag">SKILLFUSION ACADEMY</span>
+        <div class="title-line">Practical Programming Education</div>
+        <h3>For students who want real coding skills</h3>
+        <p class="desc">Industry-oriented programming training designed to help college students build strong fundamentals, practical coding skills and placement readiness.</p>
+        <a href="#academy" class="btn btn-orange">Explore Academy</a>
+      </div>
+      <div class="division-card digital">
+        <div class="deco"></div>
+        <span class="tag">SKILLFUSION DIGITAL</span>
+        <div class="title-line">Professional Websites &amp; Digital Solutions</div>
+        <h3>For businesses ready to grow online</h3>
+        <p class="desc">Modern, responsive and professional websites designed to help businesses establish and grow their online presence.</p>
+        <a href="#digital" class="btn btn-navy">Explore Digital Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DIGITAL HERO ============ -->
+<section class="digital-hero section-pad" id="digital">
+  <div class="container digital-hero-inner">
+    <div class="reveal">
+      <span class="eyebrow">SkillFusion Digital</span>
+      <h2>Professional Websites for Businesses</h2>
+      <p class="lead">Modern, fast and mobile-friendly websites designed to help businesses build credibility, attract customers and grow online.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-orange">Get a Free Consultation</a>
+        <a href="#pricing" class="btn btn-ghost">Get a Quote</a>
+      </div>
+      <div class="quote-strip on-light quote-dark">
+        <div class="quote-block">
+          <span class="mark">"</span>
+          <span class="quote-text" data-quote-slot="digital">A great website doesn't just look good — it builds trust before you say a word.</span>
+        </div>
+      </div>
+    </div>
+    <div class="mock-wrap reveal">
+      <canvas id="sf3d-digital-canvas" class="sf3d-canvas sf3d-layered" aria-hidden="true"></canvas>
+      <div class="mock-laptop">
+        <div class="mock-screen">
+          <div class="mock-topbar"><i></i><i></i><i></i></div>
+          <div class="mock-body">
+            <div class="mock-nav-fake">
+              <div class="mock-bar" style="width:70px;"></div>
+              <div style="display:flex; gap:6px;">
+                <div class="mock-bar" style="width:30px;"></div>
+                <div class="mock-bar" style="width:30px;"></div>
+                <div class="mock-bar" style="width:30px;"></div>
+              </div>
+            </div>
+            <div class="mock-hero-block"></div>
+            <div class="mock-line"></div>
+            <div class="mock-line short"></div>
+            <div class="mock-cards-row">
+              <div class="mock-mini-card"></div>
+              <div class="mock-mini-card"></div>
+              <div class="mock-mini-card"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mock-phone">
+        <div class="mock-screen">
+          <div class="mock-body">
+            <div class="mock-hero-block" style="height:40px;"></div>
+            <div class="mock-line"></div>
+            <div class="mock-line short"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DIGITAL SERVICES ============ -->
+<section class="section-pad" style="background:var(--paper);">
+  <div class="blob-field">
+    <div class="blob blob-blue" style="width:300px;height:300px; top:20px; left:-100px;"></div>
+    <div class="blob blob-orange" style="width:260px;height:260px; bottom:-80px; right:-70px; animation-delay:5s;"></div>
+  </div>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">What we build</span>
+      <h2>Digital Services</h2>
+      <p>End-to-end website and digital solutions for growing businesses.</p>
+    </div>
+    <div class="services-grid reveal-stagger" style="margin-top:40px;">
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+        <h4>Business Websites</h4>
+        <p>Professional websites that showcase a business, brand and services.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></div>
+        <h4>Landing Pages</h4>
+        <p>High-converting landing pages for campaigns, promotions and products.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 11-3-6.7"/><polyline points="21 3 21 9 15 9"/></svg></div>
+        <h4>Website Redesign</h4>
+        <p>Transform outdated websites into modern, responsive experiences.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6"/></svg></div>
+        <h4>E-Commerce Websites</h4>
+        <p>Online stores with products, shopping carts, payments and order management.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20v-6M6 20V10M18 20V4"/></svg></div>
+        <h4>Website Maintenance</h4>
+        <p>Keep websites updated, secure, optimized and running smoothly.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h4>Custom Web Applications</h4>
+        <p>Custom web solutions involving dashboards, databases, APIs and business functionality.</p>
+      </div>
+      <div class="service-card upcoming" style="grid-column: span 1;">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div>
+        <h4>AI &amp; Automation Solutions</h4>
+        <p>Smart automation and AI-assisted features for business workflows.</p>
+        <span class="upcoming-tag">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRICING ============ -->
+<section class="section-pad pricing-section" id="pricing">
+  <div class="container">
+    <div class="section-head reveal" style="margin:0 auto;">
+      <span class="eyebrow" style="color:#a9c0f9;">Investment</span>
+      <h2>Website Packages</h2>
+      <p>Custom solutions for every business — every package's pricing is shared directly when you contact us.</p>
+    </div>
+
+    <div class="pricing-grid reveal-stagger">
+      <div class="price-card">
+        <h4>Landing Page</h4>
+        <div class="contact-price"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Contact for Pricing</div>
+        <ul class="price-list">
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>1 Page</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Responsive Design</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>CTA / Enquiry Form</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Basic SEO</li>
+        </ul>
+        <p class="price-suit">Suitable for campaigns, product launches and individuals.</p>
+        <a href="tel:6361435651" class="btn btn-ghost-light btn-block">Call for Pricing</a>
+      </div>
+
+      <div class="price-card">
+        <h4>Starter Business Website</h4>
+        <div class="contact-price"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Contact for Pricing</div>
+        <ul class="price-list">
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>4–6 Pages</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Custom UI/UX</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>WhatsApp Integration</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Google Maps</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Basic SEO</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Responsive Design</li>
+        </ul>
+        <p class="price-suit">Suitable for small businesses and local brands.</p>
+        <a href="tel:6361435651" class="btn btn-ghost-light btn-block">Call for Pricing</a>
+      </div>
+
+      <div class="price-card popular">
+        <span class="popular-badge">MOST POPULAR</span>
+        <h4>Professional Website</h4>
+        <div class="contact-price"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Contact for Pricing</div>
+        <ul class="price-list">
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>6–10 Pages</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Premium Custom Design</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Forms + WhatsApp</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Gallery / Portfolio</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>SEO Foundation</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Analytics</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Responsive Design</li>
+        </ul>
+        <p class="price-suit">Suitable for growing businesses, hotels, restaurants, clinics and coaching institutes.</p>
+        <a href="tel:6361435651" class="btn btn-orange btn-block">Call for Pricing</a>
+      </div>
+
+      <div class="price-card">
+        <h4>Premium / Custom Website</h4>
+        <div class="contact-price"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Contact for Pricing</div>
+        <ul class="price-list">
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>More Pages</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Advanced Animations</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>CMS Integration</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Advanced Integrations</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Advanced SEO</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Ongoing Support</li>
+        </ul>
+        <p class="price-suit">Suitable for brands wanting a distinctive, feature-rich site.</p>
+        <a href="tel:6361435651" class="btn btn-ghost-light btn-block">Call for Pricing</a>
+      </div>
+
+      <div class="price-card">
+        <h4>Corporate Website</h4>
+        <div class="contact-price"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Contact for Pricing</div>
+        <ul class="price-list">
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Large-Scale Website</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Advanced Features</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>CRM / Integrations</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Dedicated Support</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Custom Requirements</li>
+        </ul>
+        <p class="price-suit">Suitable for established organizations with complex needs.</p>
+        <a href="tel:6361435651" class="btn btn-ghost-light btn-block">Call for Pricing</a>
+      </div>
+
+      <div class="price-card">
+        <h4>E-Commerce Website</h4>
+        <div class="contact-price"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Contact for Pricing</div>
+        <ul class="price-list">
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Product Catalogue</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Shopping Cart</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Payment Integration</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Order Management</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Customer Functionality</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Admin Panel</li>
+        </ul>
+        <p class="price-suit">Suitable for brands ready to sell online.</p>
+        <a href="tel:6361435651" class="btn btn-ghost-light btn-block">Call for Pricing</a>
+      </div>
+    </div>
+
+    <div class="pricing-grid" style="grid-template-columns:1fr; margin-top:22px;">
+      <div class="price-card" style="max-width:400px;">
+        <h4>Custom Web Application</h4>
+        <div class="contact-price"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>Contact for Pricing</div>
+        <ul class="price-list">
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Login / Authentication</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>User Dashboards</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Database</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>APIs &amp; Integrations</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Booking Systems</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Custom Business Functionality</li>
+        </ul>
+        <p class="price-suit">Suitable for businesses needing a fully custom platform.</p>
+        <a href="tel:6361435651" class="btn btn-ghost-light btn-block">Call for Pricing</a>
+      </div>
+    </div>
+
+    <div class="quote-cta reveal">
+      <h3>Need something different?</h3>
+      <p>Tell us what you need and we'll create a custom solution.</p>
+      <a href="#contact" class="btn btn-orange">Request a Custom Quote</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY DIGITAL + BUILT FOR ============ -->
+<section class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">The SkillFusion Digital difference</span>
+      <h2>Why Choose SkillFusion Digital</h2>
+    </div>
+    <div class="feature-strip reveal-stagger" style="margin-top:36px;">
+      <div class="feature-item">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg>
+        <h4>Clean &amp; Modern Designs</h4>
+      </div>
+      <div class="feature-item">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+        <h4>Fully Responsive</h4>
+      </div>
+      <div class="feature-item">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <h4>On-Time Delivery</h4>
+      </div>
+      <div class="feature-item">
+        <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg>
+        <h4>Dedicated Support</h4>
+      </div>
+    </div>
+
+    <div class="built-for reveal">
+      <div>
+        <span class="eyebrow" style="color:#a9c0f9;">The outcome</span>
+        <h3 style="margin-top:14px;">Built for Real Businesses</h3>
+        <ul>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Build credibility with a professional online presence</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Improve how easily customers can find you</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Make your business easier to discover online</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Generate enquiries through forms and WhatsApp</li>
+          <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Work seamlessly across mobile, tablet and desktop</li>
+        </ul>
+      </div>
+      <div class="built-visual">
+        <div class="built-stat"><b data-countup="100" data-suffix="%">0</b><span>RESPONSIVE BUILDS</span></div>
+        <div class="built-stat"><b data-countup="7" data-suffix="">0</b><span>SERVICE LINES</span></div>
+        <div class="built-stat"><b data-countup="6" data-suffix="">0</b><span>PACKAGE OPTIONS</span></div>
+        <div class="built-stat"><b>24/7</b><span>WHATSAPP ACCESS</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ACADEMY SECTION ============ -->
+<section class="academy-section section-pad" id="academy">
+  <div class="blob-field">
+    <div class="blob blob-mix" style="width:420px;height:420px; top:-160px; right:-140px;"></div>
+  </div>
+  <canvas id="sf3d-academy-canvas" class="sf3d-canvas sf3d-layered" aria-hidden="true"></canvas>
+  <div class="container">
+    <div class="academy-top">
+      <div class="reveal">
+        <span class="eyebrow">SkillFusion Academy</span>
+        <h2 style="font-size:clamp(30px,4vw,42px); color:var(--navy-deep); margin-top:14px;">Build Strong Programming Foundations</h2>
+        <p style="margin-top:16px; color:var(--muted); font-size:16.5px; line-height:1.65;">Learn C, C++, Java, Python and Linux the right way — from basics to real world. Open to everyone: complete beginners with zero coding experience, students from any background, and experienced learners who want to go deeper into a language.</p>
+        <div class="exp-badge">
+          <div>
+            <b>18+ Years</b>
+            <span>Industry Experience</span>
+          </div>
+          <div style="width:1px;height:34px;background:var(--line);"></div>
+          <div>
+            <span style="color:var(--muted); font-size:13.5px;">Learn from a software professional with real industry exposure.</span>
+          </div>
+        </div>
+        <div class="quote-strip on-light quote-dark">
+          <div class="quote-block">
+            <span class="mark">"</span>
+            <span class="quote-text" data-quote-slot="academy">Every expert was once a beginner who refused to give up.</span>
+          </div>
+        </div>
+      </div>
+      <div class="academy-visual reveal">
+        <div class="grid-line"></div>
+        <div class="stat-card-row">
+          <div class="mini-stat"><b>All Backgrounds</b><span>WELCOME TO LEARN</span></div>
+          <div class="mini-stat"><b>Zero to Advanced</b><span>ANY STARTING POINT</span></div>
+          <div class="mini-stat"><b>Small Batches</b><span>PERSONAL ATTENTION</span></div>
+          <div class="mini-stat"><b>Growing Curriculum</b><span>NEW COURSES ADDED REGULARLY</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-head reveal" style="margin:0 auto 20px;">
+      <span class="eyebrow">Why choose us</span>
+      <h2>Why Choose SkillFusion Academy?</h2>
+    </div>
+    <div class="why-grid reveal-stagger" style="margin-top:36px;">
+      <div class="why-card">
+        <div class="why-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l9 4.9-9 4.9-9-4.9L12 2z"/><path d="M3 12l9 4.9 9-4.9"/><path d="M3 17l9 4.9 9-4.9"/></svg></div>
+        <h4>18+ Years Industry Experience</h4>
+        <p>Learn from a software professional with real industry exposure.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></div>
+        <h4>Industry-Oriented Approach</h4>
+        <p>Practical, exam-focused and placement-ready training.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h4>Hands-on Learning</h4>
+        <p>100+ programs, assignments and coding practice.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="8.5" cy="7" r="4"/><path d="M20 8v6M23 11h-6"/></svg></div>
+        <h4>Placement Support</h4>
+        <p>Resume building, mock interviews and career guidance.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
+        <h4>Small Batch Size</h4>
+        <p>Personalized attention for better understanding.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COURSE CARD ============ -->
+<section class="course-section section-pad">
+  <div class="container">
+    <div class="course-card reveal">
+      <div class="course-left">
+        <span class="course-badge">Flagship Course</span>
+        <h3>C Programming</h3>
+        <div class="sub">From Basics to Real World</div>
+        <p class="desc">Learn C the right way, build strong programming fundamentals and develop practical problem-solving skills.</p>
+        <div class="highlight-chip-row">
+          <span class="highlight-chip">8 Weeks</span>
+          <span class="highlight-chip">16 Live Sessions</span>
+          <span class="highlight-chip">32+ Hours Training</span>
+          <span class="highlight-chip">100+ Programs</span>
+          <span class="highlight-chip">Weekly Tests</span>
+        </div>
+        <div class="two-col-list">
+          <div>
+            <h5>WHAT YOU WILL LEARN</h5>
+            <ul class="check-list">
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>C Basics &amp; Structure</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Data Types &amp; Operators</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Conditional Statements</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Loops — For, While, Do-While</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Arrays &amp; Strings</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Functions</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Pointers</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Structures &amp; Unions</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Recursion</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>File Handling</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Practical Programs</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Problem Solving</li>
+            </ul>
+          </div>
+          <div>
+            <h5>WHAT'S INCLUDED</h5>
+            <ul class="check-list">
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Live Online Classes</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Study Materials &amp; Notes</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>100+ Practice Programs</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Weekly Assignments</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Doubt Clearing Sessions</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Unit Tests &amp; Final Test</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Practical Lab Support</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Exam Preparation</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Interview Questions</li>
+              <li><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Certificate of Completion</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="course-right">
+        <span class="offer-tag">NOW ENROLLING</span>
+        <div style="font-family:'Fraunces',serif; font-size:26px; margin-top:6px; line-height:1.35;">Course fees shared on request</div>
+        <div class="limited">Call us for current pricing &amp; batch details</div>
+        <a href="tel:9860706062" class="btn btn-orange btn-block">Call 9860706062 for Fees</a>
+        <a href="#contact" class="btn btn-ghost-light btn-block" style="margin-top:12px;">Enquire About the Course</a>
+        <ul class="mini">
+          <li><span>Duration</span><b>8 Weeks</b></li>
+          <li><span>Live Sessions</span><b>16 Sessions</b></li>
+          <li><span>Training Hours</span><b>32+ Hours</b></li>
+          <li><span>Practice Programs</span><b>100+</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section-head reveal" style="margin:64px auto 0;">
+      <span class="eyebrow">Growing curriculum</span>
+      <h2 style="font-size:clamp(26px,3.4vw,36px);">Starting With C &amp; C++ — More Added Along the Way</h2>
+      <p>We're launching with C and C++ to build strong programming foundations. Java, Python and Linux are also available today, and specializations like AI &amp; Machine Learning and Full Stack Development are on the way as the Academy grows. Fees for every course are shared directly on request — just call or WhatsApp us.</p>
+    </div>
+    <div class="services-grid reveal-stagger" style="margin-top:36px;">
+      <div class="service-card featured-lang">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h4>C++</h4>
+        <p>Object-oriented programming built on strong C fundamentals — starting now, alongside C.</p>
+        <span class="upcoming-tag" style="background:var(--blue);">Starting Now</span>
+        <a href="tel:9860706062" class="btn btn-ghost btn-sm" style="margin-top:14px;">Contact for Pricing</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+        <h4>Java</h4>
+        <p>Core Java concepts, OOP principles and practical coding for academic and placement needs.</p>
+        <a href="tel:9860706062" class="btn btn-ghost btn-sm" style="margin-top:14px;">Contact for Pricing</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z"/></svg></div>
+        <h4>Python</h4>
+        <p>A beginner-friendly language for programming fundamentals, logic building and real projects.</p>
+        <a href="tel:9860706062" class="btn btn-ghost btn-sm" style="margin-top:14px;">Contact for Pricing</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+        <h4>Linux OS</h4>
+        <p>Command-line fundamentals and system basics for students and working professionals alike.</p>
+        <a href="tel:9860706062" class="btn btn-ghost btn-sm" style="margin-top:14px;">Contact for Pricing</a>
+      </div>
+      <div class="service-card upcoming">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div>
+        <h4>AI &amp; Machine Learning</h4>
+        <p>Foundational AI and ML concepts for learners ready to move beyond core programming.</p>
+        <span class="upcoming-tag">Coming Soon</span>
+      </div>
+      <div class="service-card upcoming">
+        <div class="service-icon"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 21h8M12 18v3"/></svg></div>
+        <h4>Full Stack Development</h4>
+        <p>End-to-end web development covering front-end, back-end and real project deployment.</p>
+        <span class="upcoming-tag">Coming Soon</span>
+      </div>
+    </div>
+
+    <div class="quote-strip on-white quote-dark reveal" style="margin-top:60px; text-align:center; max-width:700px; margin-left:auto; margin-right:auto;">
+      <div class="quote-block" style="margin:0 auto; justify-content:center;">
+        <span class="mark">"</span>
+        <span class="quote-text" data-quote-slot="course">Discipline is choosing between what you want now and what you want most.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section-pad about-section" id="about">
+  <div class="blob-field">
+    <div class="blob blob-mix" style="width:360px;height:360px; bottom:-140px; left:-100px;"></div>
+  </div>
+  <canvas id="sf3d-about-canvas" class="sf3d-canvas sf3d-layered" aria-hidden="true"></canvas>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">About SkillFusion</span>
+      <h2>Two Divisions. One Mission.</h2>
+      <p>SkillFusion brings together practical technical education and modern digital solutions — built to help people and businesses grow with real, usable skills and tools.</p>
+    </div>
+    <div class="about-grid reveal-stagger">
+      <div class="about-card a1">
+        <div class="mark">A</div>
+        <h4>SkillFusion Academy</h4>
+        <p>Helping students develop programming skills and strong technical foundations through practical, industry-oriented training led by an experienced software professional.</p>
+      </div>
+      <div class="about-card a2">
+        <div class="mark">D</div>
+        <h4>SkillFusion Digital</h4>
+        <p>Helping businesses establish a professional digital presence through modern, responsive websites and digital solutions built for real-world results.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section-pad contact-section" id="contact">
+  <canvas id="sf3d-contact-canvas" class="sf3d-canvas sf3d-layered" aria-hidden="true"></canvas>
+  <div class="container contact-inner">
+    <div class="reveal">
+      <span class="eyebrow" style="color:#a9c0f9;">Get in touch</span>
+      <h2>Let's Build Something Great.</h2>
+      <p class="lead">Whether you're looking to build your programming skills or take your business online, we're ready to help.</p>
+
+      <div class="contact-methods">
+        <a href="tel:6361435651" class="contact-method">
+          <div class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div><b>SkillFusion Digital</b><span>6361435651</span></div>
+        </a>
+        <a href="tel:9860706062" class="contact-method">
+          <div class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div><b>SkillFusion Academy</b><span>9860706062</span></div>
+        </a>
+        <a href="mailto:info@skillfusionacademy.com" class="contact-method">
+          <div class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" style="display:none"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+          <div><b>Email Us</b><span>info@skillfusionacademy.com</span></div>
+        </a>
+        <a href="mailto:skillfusioncoaching@gmail.com" class="contact-method">
+          <div class="ic"><svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" style="display:none"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+          <div><b>Email Us (Academy)</b><span>skillfusioncoaching@gmail.com</span></div>
+        </a>
+        <a href="https://wa.me/916361435651" target="_blank" rel="noopener noreferrer" class="contact-method">
+          <div class="ic" style="background:#25D366;"><svg aria-hidden="true" focusable="false" viewBox="0 0 32 32" fill="#fff"><path d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.5.7 4.8 1.9 6.8L3 29l6.7-2.1c1.9 1 4.1 1.6 6.3 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23c-2 0-3.9-.5-5.6-1.5l-.4-.2-4 1.3 1.3-3.9-.3-.4a10.6 10.6 0 01-1.7-5.6C5.3 9.8 10.1 5 16 5s10.7 4.8 10.7 10.7S21.9 26 16 26zm5.9-8c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg></div>
+          <div><b>Chat on WhatsApp</b><span>Fastest response time</span></div>
+        </a>
+      </div>
+
+      <div class="quote-strip on-navy quote-light">
+        <div class="quote-block">
+          <span class="mark">"</span>
+          <span class="quote-text" data-quote-slot="contact">Growth begins the moment you decide to reach out.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form reveal">
+      <h3 style="color:var(--navy-deep); font-size:22px;">Send an Enquiry</h3>
+      <form id="enquiry-form" style="margin-top:22px;">
+        <div class="form-row">
+        <div class="field">
+          <label for="enquiry-name">Name</label>
+          <input id="enquiry-name" name="name" type="text" placeholder="Your full name" autocomplete="name" required>
+          </div>
+          <div class="field">
+          <label for="enquiry-phone">Phone Number</label>
+          <input id="enquiry-phone" name="phone" type="tel" placeholder="Your phone number" autocomplete="tel" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="enquiry-email">Email</label>
+          <input id="enquiry-email" name="email" type="email" placeholder="you@example.com" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="enquiry-interest">I'm interested in</label>
+          <select id="enquiry-interest" name="interest" required>
+            <option value="" disabled selected>Select an option</option>
+            <option>Programming Courses</option>
+            <option>Website Development</option>
+            <option>Website Redesign</option>
+            <option>E-Commerce</option>
+            <option>Custom Web Application</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="enquiry-message">Message</label>
+          <textarea id="enquiry-message" name="message" placeholder="Tell us a bit about what you need..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-orange btn-block">Send Enquiry</button>
+        <p id="form-note" style="margin-top:14px; font-size:12.5px; color:var(--muted); text-align:center;"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">SKILLFUSION</span>
+        <div class="brand-sub" style="color:var(--orange); margin-top:6px;">ACADEMY&nbsp;|&nbsp;DIGITAL</div>
+        <p class="tag">"Learn Skills. Build Solutions. Grow Together."</p>
+      </div>
+      <div class="footer-col">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#academy">Academy</a></li>
+          <li><a href="#digital">Digital Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#digital">Business Websites</a></li>
+          <li><a href="#digital">Landing Pages</a></li>
+          <li><a href="#digital">Website Redesign</a></li>
+          <li><a href="#digital">E-Commerce</a></li>
+          <li><a href="#digital">Maintenance</a></li>
+          <li><a href="#digital">Custom Web Applications</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:6361435651">6361435651</a></li>
+          <li><a href="tel:9860706062">9860706062</a></li>
+          <li><a href="mailto:info@skillfusionacademy.com">info@skillfusionacademy.com</a></li>
+          <li><a href="mailto:skillfusioncoaching@gmail.com">skillfusioncoaching@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SkillFusion. All Rights Reserved.</span>
+      <span>Academy | Digital</span>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ FLOATING WHATSAPP ============ -->
+<a href="https://wa.me/916361435651" target="_blank" rel="noopener noreferrer" class="wa-float" aria-label="Chat on WhatsApp">
+  <svg aria-hidden="true" focusable="false" viewBox="0 0 32 32"><path d="M16 3C9 3 3.3 8.7 3.3 15.7c0 2.5.7 4.8 1.9 6.8L3 29l6.7-2.1c1.9 1 4.1 1.6 6.3 1.6 7 0 12.7-5.7 12.7-12.7S23 3 16 3zm0 23c-2 0-3.9-.5-5.6-1.5l-.4-.2-4 1.3 1.3-3.9-.3-.4a10.6 10.6 0 01-1.7-5.6C5.3 9.8 10.1 5 16 5s10.7 4.8 10.7 10.7S21.9 26 16 26zm5.9-8c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.2-.2.3-.8 1.1-1 1.3-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.4.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1.1 2.8 1.2 3c.1.2 2.2 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script>
+  // ---------- header scroll state ----------
+  const header = document.getElementById('site-header');
+  const scrollProgress = document.getElementById('scroll-progress');
+  window.addEventListener('scroll', () => {
+    header.classList.toggle('scrolled', window.scrollY > 40);
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0;
+    scrollProgress.style.width = pct + '%';
+  });
+
+  // ---------- mobile menu ----------
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburger.addEventListener('click', () => {
+    const isOpen = hamburger.classList.toggle('open');
+    mobileMenu.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', String(isOpen));
+    hamburger.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
+  });
+  document.querySelectorAll('.mobile-menu a').forEach(a => {
+    a.addEventListener('click', () => {
+      hamburger.classList.remove('open');
+      mobileMenu.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+      hamburger.setAttribute('aria-label', 'Open menu');
+    });
+  });
+
+  // ---------- scroll reveal ----------
+  const revealEls = document.querySelectorAll('.reveal, .reveal-stagger');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in');
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  revealEls.forEach(el => io.observe(el));
+
+  // ---------- count-up numbers ----------
+  const countEls = document.querySelectorAll('[data-countup]');
+  const countIo = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = parseInt(el.dataset.countup, 10);
+        const suffix = el.dataset.suffix || '';
+        const duration = 1200;
+        const start = performance.now();
+        function tick(now){
+          const progress = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - progress, 3);
+          el.textContent = Math.round(eased * target) + suffix;
+          if (progress < 1) requestAnimationFrame(tick);
+        }
+        requestAnimationFrame(tick);
+        countIo.unobserve(el);
+      }
+    });
+  }, { threshold: 0.4 });
+  countEls.forEach(el => countIo.observe(el));
+
+  // ---------- rotating motivational quotes ----------
+  const quotePool = [
+    "The best time to start learning was yesterday. The next best time is now.",
+    "Every expert was once a beginner who refused to give up.",
+    "Discipline is choosing between what you want now and what you want most.",
+    "A great website doesn't just look good — it builds trust before you say a word.",
+    "Growth begins the moment you decide to reach out.",
+    "Skills are built one line of code at a time.",
+    "Small, consistent effort beats occasional bursts of motivation.",
+    "Your background doesn't decide your future — your effort does.",
+    "A strong foundation today becomes a strong career tomorrow.",
+    "Businesses grow when they become easy to find and easy to trust.",
+    "Learning to code is learning to solve problems for life.",
+    "The right guidance turns confusion into confidence.",
+    "Every business online started with a single, well-built website.",
+    "Progress, not perfection, is what moves you forward.",
+    "The gap between beginner and expert is simply practice."
+  ];
+
+  const quoteEls = Array.from(document.querySelectorAll('.quote-text'));
+  const quoteState = quoteEls.map((el, i) => ({ el, index: i % quotePool.length }));
+
+  function shuffleQuote(state){
+    state.el.classList.add('fading');
+    setTimeout(() => {
+      let next;
+      do { next = Math.floor(Math.random() * quotePool.length); } while (next === state.index);
+      state.index = next;
+      state.el.textContent = quotePool[next];
+      state.el.classList.remove('fading');
+    }, 500);
+  }
+
+  if (quoteState.length){
+    setInterval(() => {
+      quoteState.forEach(shuffleQuote);
+    }, 6000);
+  }
+
+  // ---------- enquiry form ----------
+  document.getElementById('enquiry-form').addEventListener('submit', function(e){
+    e.preventDefault();
+    const form = this;
+    const name = form.elements.name.value.trim();
+    const phone = form.elements.phone.value.trim();
+    const email = form.elements.email.value.trim();
+    const interest = form.elements.interest.value;
+    const message = form.elements.message.value.trim() || 'No additional message provided.';
+    const whatsappMessage = encodeURIComponent(
+      'New SkillFusion enquiry\n\n' +
+      'Name: ' + name + '\n' +
+      'Phone: ' + phone + '\n' +
+      'Email: ' + email + '\n' +
+      'Interest: ' + interest + '\n\n' +
+      'Message:\n' + message
+    );
+    window.location.href = 'https://wa.me/916361435651?text=' + whatsappMessage;
+
+    const note = document.getElementById('form-note');
+    note.textContent = 'WhatsApp should open with your enquiry addressed to 6361435651. If it does not, email skillfusioncoaching@gmail.com or call ';
+    const academyLink = document.createElement('a');
+    academyLink.href = 'tel:9860706062';
+    academyLink.textContent = '9860706062';
+    academyLink.style.color = 'var(--blue)';
+    academyLink.style.fontWeight = '700';
+    note.appendChild(academyLink);
+    note.appendChild(document.createTextNode(' or '));
+    const digitalLink = document.createElement('a');
+    digitalLink.href = 'tel:6361435651';
+    digitalLink.textContent = '6361435651';
+    digitalLink.style.color = 'var(--blue)';
+    digitalLink.style.fontWeight = '700';
+    note.appendChild(digitalLink);
+    this.reset();
+  });
+
+  // ---------- subtle tilt hover on feature cards ----------
+  const tiltEls = document.querySelectorAll('.division-card, .price-card.popular, .course-card');
+  tiltEls.forEach(el => {
+    el.style.transformStyle = 'preserve-3d';
+    el.addEventListener('mousemove', (e) => {
+      const rect = el.getBoundingClientRect();
+      const x = (e.clientX - rect.left) / rect.width - 0.5;
+      const y = (e.clientY - rect.top) / rect.height - 0.5;
+      el.style.transform = `perspective(900px) rotateY(${x * 5}deg) rotateX(${-y * 5}deg) translateY(-4px)`;
+    });
+    el.addEventListener('mouseleave', () => {
+      el.style.transform = '';
+    });
+  });
+</script>
+
+<!-- =====================================================================
+     SKILLFUSION 3D ENHANCEMENT LAYER — LIBRARIES + SCRIPT
+     Everything below is purely additive. To fully remove the 3D/cinematic
+     layer and revert to the pre-3D site, delete:
+       1) the two <script src> tags immediately below,
+       2) the <script> block that follows them,
+       3) the .sf3d-* CSS block above,
+       4) the .sf3d-* canvas/cursor elements in the HTML.
+     No other part of the site depends on this layer.
+     ===================================================================== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" integrity="sha384-CI3ELBVUz9XQO+97x6nwMDPosPR5XvsxW2ua7N1Xeygeh1IxtgqtCkGfQY9WWdHu" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha384-d+vyQ0dYcymoP8ndq2hW7FGC50nqGdXUEgoOUGxbbkAJwZqL7h+jKN0GGgn9hFDS" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha384-poC0r6usQOX2Ayt/VGA+t81H6V3iN9L+Irz9iO8o+s0X20tLpzc9DOOtnKxhaQSE" crossorigin="anonymous"></script>
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------------------------------------------------------------
+     Environment checks. If any of these fail, the new layer quietly does
+     nothing and the site behaves exactly as it did before this layer was
+     added — nothing else on the page depends on this script running.
+     --------------------------------------------------------------------- */
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var isDesktop = window.matchMedia('(min-width:1025px) and (hover:hover) and (pointer:fine)').matches;
+  var hasWebGL = (function () {
+    try {
+      var c = document.createElement('canvas');
+      return !!(window.WebGLRenderingContext && (c.getContext('webgl') || c.getContext('experimental-webgl')));
+    } catch (e) {
+      return false;
+    }
+  })();
+
+  /* ---------------------------------------------------------------------
+     Shared mouse tracking (normalized -1..1), used by the hero 3D scene
+     and the decorative scenes for gentle parallax.
+     --------------------------------------------------------------------- */
+  var mouseX = 0, mouseY = 0;
+  window.addEventListener('mousemove', function (e) {
+    mouseX = (e.clientX / window.innerWidth) * 2 - 1;
+    mouseY = (e.clientY / window.innerHeight) * 2 - 1;
+  }, { passive: true });
+
+  /* ========================== MAGNETIC BUTTONS ============================ */
+  if (isDesktop && !reduceMotion) {
+    document.querySelectorAll('.btn').forEach(function (btn) {
+      btn.addEventListener('mousemove', function (e) {
+        var r = btn.getBoundingClientRect();
+        var mx = e.clientX - r.left - r.width / 2;
+        var my = e.clientY - r.top - r.height / 2;
+        btn.style.transform = 'translate(' + (mx * 0.18).toFixed(2) + 'px,' + (my * 0.35).toFixed(2) + 'px)';
+      });
+      btn.addEventListener('mouseleave', function () {
+        btn.style.transform = '';
+      });
+    });
+  }
+
+  /* ===================== DIGITAL SERVICE CARD TILT + GLOW ================== */
+  if (isDesktop && !reduceMotion) {
+    document.querySelectorAll('.service-card').forEach(function (el) {
+      el.style.transformStyle = 'preserve-3d';
+      el.addEventListener('mousemove', function (e) {
+        var r = el.getBoundingClientRect();
+        var x = (e.clientX - r.left) / r.width - 0.5;
+        var y = (e.clientY - r.top) / r.height - 0.5;
+        el.style.transform = 'perspective(800px) rotateY(' + (x * 5).toFixed(2) + 'deg) rotateX(' + (-y * 5).toFixed(2) + 'deg) translateY(-4px)';
+        var icon = el.querySelector('.service-icon');
+        if (icon) icon.style.transform = 'translate(' + (x * 6).toFixed(2) + 'px,' + (y * 6).toFixed(2) + 'px)';
+      });
+      el.addEventListener('mouseleave', function () {
+        el.style.transform = '';
+        var icon = el.querySelector('.service-icon');
+        if (icon) icon.style.transform = '';
+      });
+    });
+  }
+
+  /* If 3D isn't supported/desired, stop here — everything above is 2D/CSS
+     only and already respects the environment checks on its own. */
+  if (!isDesktop || reduceMotion || !hasWebGL || !window.THREE) { return; }
+
+  var THREE = window.THREE;
+  var clock = new THREE.Clock();
+
+  function makeGlowLineMaterial(color) {
+    return new THREE.LineBasicMaterial({ color: color, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending });
+  }
+
+  /* Small procedural "UI screen" texture — avoids needing any external
+     image assets while still reading as an abstract digital interface. */
+  function makeUITexture() {
+    var c = document.createElement('canvas');
+    c.width = 256; c.height = 160;
+    var ctx = c.getContext('2d');
+    ctx.fillStyle = '#0d2347'; ctx.fillRect(0, 0, 256, 160);
+    ctx.fillStyle = 'rgba(58,99,212,0.9)'; ctx.fillRect(16, 16, 90, 10);
+    ctx.fillStyle = 'rgba(240,130,74,0.9)'; ctx.fillRect(16, 34, 50, 8);
+    ctx.fillStyle = 'rgba(255,255,255,0.15)';
+    for (var i = 0; i < 3; i++) { ctx.fillRect(16, 56 + i * 26, 224, 16); }
+    ctx.fillStyle = 'rgba(58,99,212,0.5)'; ctx.fillRect(16, 140, 60, 10);
+    var tex = new THREE.CanvasTexture(c);
+    tex.needsUpdate = true;
+    return tex;
+  }
+
+  /* ============================ HERO SCENE ============================
+     A stylised, abstract "digital workspace" — an open-laptop-like form
+     with a glowing UI screen, orbited by a few small low-poly shapes and
+     a soft particle field. Built entirely from primitive geometry, so no
+     external .glb/.gltf model is required. */
+  function buildHeroScene(canvas) {
+    var renderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true });
+    } catch (e) { return null; }
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(38, 1, 0.1, 100);
+    camera.position.set(0, 0, 9);
+
+    scene.add(new THREE.AmbientLight(0x89a6ff, 0.55));
+    var dLight = new THREE.DirectionalLight(0xffffff, 0.9);
+    dLight.position.set(4, 6, 6);
+    scene.add(dLight);
+    var pLightBlue = new THREE.PointLight(0x3a63d4, 1.4, 20);
+    pLightBlue.position.set(-3, 2, 4);
+    scene.add(pLightBlue);
+    var pLightOrange = new THREE.PointLight(0xf0824a, 0.45, 15);
+    pLightOrange.position.set(3, -2, 3);
+    scene.add(pLightOrange);
+
+    var group = new THREE.Group();
+    scene.add(group);
+
+    var baseGeo = new THREE.BoxGeometry(3.2, 0.12, 2.0);
+    var baseMat = new THREE.MeshStandardMaterial({ color: 0x122a52, metalness: 0.7, roughness: 0.3 });
+    var base = new THREE.Mesh(baseGeo, baseMat);
+    base.position.y = -0.9;
+    base.rotation.x = -0.12;
+    group.add(base);
+
+    var screenGeo = new THREE.BoxGeometry(3.2, 2.0, 0.08);
+    var screenMat = new THREE.MeshStandardMaterial({ color: 0x0d2347, metalness: 0.6, roughness: 0.35 });
+    var screen = new THREE.Mesh(screenGeo, screenMat);
+    screen.position.set(0, 0.05, -0.85);
+    screen.rotation.x = -0.55;
+    group.add(screen);
+
+    var uiPlane = new THREE.Mesh(
+      new THREE.PlaneGeometry(2.85, 1.75),
+      new THREE.MeshBasicMaterial({ map: makeUITexture(), transparent: true, opacity: 0.95 })
+    );
+    uiPlane.position.copy(screen.position);
+    uiPlane.position.z += 0.05;
+    uiPlane.rotation.copy(screen.rotation);
+    group.add(uiPlane);
+
+    var edges = new THREE.LineSegments(new THREE.EdgesGeometry(screenGeo), makeGlowLineMaterial(0x3a63d4));
+    edges.position.copy(screen.position);
+    edges.rotation.copy(screen.rotation);
+    group.add(edges);
+
+    var orbiters = [];
+    var shapeGeoms = [
+      new THREE.IcosahedronGeometry(0.16, 0),
+      new THREE.OctahedronGeometry(0.14, 0),
+      new THREE.TetrahedronGeometry(0.15, 0)
+    ];
+    var shapeColors = [0x3a63d4, 0xf0824a, 0xffffff];
+    for (var i = 0; i < 6; i++) {
+      var geo = shapeGeoms[i % shapeGeoms.length];
+      var col = shapeColors[i % shapeColors.length];
+      var mat = new THREE.MeshStandardMaterial({ color: col, metalness: 0.5, roughness: 0.4, emissive: col, emissiveIntensity: 0.15 });
+      var mesh = new THREE.Mesh(geo, mat);
+      mesh.userData = {
+        radius: 2.0 + (i % 3) * 0.35,
+        angle: (i / 6) * Math.PI * 2,
+        speed: 0.15 + i * 0.02,
+        height: (i % 2 === 0 ? 0.6 : -0.5)
+      };
+      group.add(mesh);
+      orbiters.push(mesh);
+    }
+
+    var particleCount = 90;
+    var positions = new Float32Array(particleCount * 3);
+    for (var p = 0; p < particleCount; p++) {
+      positions[p * 3] = (Math.random() - 0.5) * 9;
+      positions[p * 3 + 1] = (Math.random() - 0.5) * 6;
+      positions[p * 3 + 2] = (Math.random() - 0.5) * 6;
+    }
+    var particleGeo = new THREE.BufferGeometry();
+    particleGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    var particleMat = new THREE.PointsMaterial({ color: 0x8fb0ff, size: 0.045, transparent: true, opacity: 0.55, blending: THREE.AdditiveBlending, depthWrite: false });
+    var particles = new THREE.Points(particleGeo, particleMat);
+    scene.add(particles);
+
+    var targetRotX = 0, targetRotY = 0, curRotX = 0, curRotY = 0;
+    var running = false, raf = null;
+
+    function resize() {
+      var w = canvas.clientWidth || (canvas.parentElement && canvas.parentElement.clientWidth) || 0;
+      var h = canvas.clientHeight || (canvas.parentElement && canvas.parentElement.clientHeight) || 0;
+      if (!w || !h) return;
+      renderer.setSize(w, h, false);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+    }
+
+    function animate() {
+      raf = requestAnimationFrame(animate);
+      var t = clock.getElapsedTime();
+
+      targetRotY = mouseX * 0.35;
+      targetRotX = mouseY * 0.18;
+      curRotX += (targetRotX - curRotX) * 0.04;
+      curRotY += (targetRotY - curRotY) * 0.04;
+
+      group.rotation.y = curRotY + Math.sin(t * 0.25) * 0.04;
+      group.rotation.x = curRotX * -1;
+      group.position.y = Math.sin(t * 0.6) * 0.15;
+
+      orbiters.forEach(function (m) {
+        var d = m.userData;
+        d.angle += d.speed * 0.01;
+        m.position.set(Math.cos(d.angle) * d.radius, d.height + Math.sin(t * 0.8 + d.angle) * 0.12, Math.sin(d.angle) * d.radius * 0.6);
+        m.rotation.x += 0.004;
+        m.rotation.y += 0.006;
+      });
+
+      particles.rotation.y = t * 0.01 + mouseX * 0.05;
+
+      renderer.render(scene, camera);
+    }
+
+    function start() { if (!running) { running = true; resize(); animate(); } }
+    function stop() { running = false; if (raf) cancelAnimationFrame(raf); raf = null; }
+
+    window.addEventListener('resize', resize);
+    resize();
+
+    return { start: start, stop: stop, resize: resize, canvas: canvas };
+  }
+
+  /* ===================== DECORATIVE SECTION SCENES =====================
+     Reused for Academy, Digital (device area), About and Contact — a
+     lighter-weight ambient scene of a handful of low-poly shapes and a
+     soft particle drift, themed per section via a small palette/shape map. */
+  function buildDecorativeScene(canvas, theme) {
+    var renderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: true });
+    } catch (e) { return null; }
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+
+    var scene = new THREE.Scene();
+    var camera = new THREE.PerspectiveCamera(45, 1, 0.1, 50);
+    camera.position.set(0, 0, 8);
+
+    scene.add(new THREE.AmbientLight(0x89a6ff, 0.6));
+    var dl = new THREE.DirectionalLight(0xffffff, 0.6);
+    dl.position.set(3, 4, 5);
+    scene.add(dl);
+
+    var group = new THREE.Group();
+    scene.add(group);
+
+    var palette = {
+      academy: { primary: 0x3a63d4, accent: 0xf0824a, shapeCount: 9, kind: 'code' },
+      digital: { primary: 0x3a63d4, accent: 0xf0824a, shapeCount: 7, kind: 'ui' },
+      about: { primary: 0x8fb0ff, accent: 0xf0824a, shapeCount: 5, kind: 'soft' },
+      contact: { primary: 0x8fb0ff, accent: 0xf0824a, shapeCount: 4, kind: 'soft' }
+    };
+    var cfg = palette[theme] || palette.about;
+
+    var items = [];
+    for (var i = 0; i < cfg.shapeCount; i++) {
+      var geo;
+      if (cfg.kind === 'code') {
+        geo = (i % 2 === 0) ? new THREE.BoxGeometry(0.22, 0.22, 0.22) : new THREE.TorusGeometry(0.14, 0.045, 8, 16, Math.PI);
+      } else if (cfg.kind === 'ui') {
+        geo = (i % 2 === 0) ? new THREE.PlaneGeometry(0.42, 0.28) : new THREE.OctahedronGeometry(0.14, 0);
+      } else {
+        geo = new THREE.IcosahedronGeometry(0.13, 0);
+      }
+      var color = (i % 3 === 0) ? cfg.accent : cfg.primary;
+      var mat = new THREE.MeshStandardMaterial({ color: color, metalness: 0.4, roughness: 0.5, emissive: color, emissiveIntensity: 0.12, transparent: true, opacity: 0.85, side: THREE.DoubleSide });
+      var mesh = new THREE.Mesh(geo, mat);
+      mesh.userData = {
+        radius: 2.4 + Math.random() * 2.2,
+        angle: Math.random() * Math.PI * 2,
+        speed: 0.05 + Math.random() * 0.08,
+        height: (Math.random() - 0.5) * 3.2,
+        spin: 0.002 + Math.random() * 0.006
+      };
+      group.add(mesh);
+      items.push(mesh);
+    }
+
+    var particleCount = cfg.kind === 'soft' ? 40 : 55;
+    var positions = new Float32Array(particleCount * 3);
+    for (var p = 0; p < particleCount; p++) {
+      positions[p * 3] = (Math.random() - 0.5) * 12;
+      positions[p * 3 + 1] = (Math.random() - 0.5) * 8;
+      positions[p * 3 + 2] = (Math.random() - 0.5) * 6;
+    }
+    var pGeo = new THREE.BufferGeometry();
+    pGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    var pMat = new THREE.PointsMaterial({ color: cfg.primary, size: 0.035, transparent: true, opacity: 0.4, blending: THREE.AdditiveBlending, depthWrite: false });
+    var particles = new THREE.Points(pGeo, pMat);
+    scene.add(particles);
+
+    var running = false, raf = null;
+
+    function resize() {
+      var w = canvas.clientWidth || (canvas.parentElement && canvas.parentElement.clientWidth) || 0;
+      var h = canvas.clientHeight || (canvas.parentElement && canvas.parentElement.clientHeight) || 0;
+      if (!w || !h) return;
+      renderer.setSize(w, h, false);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+    }
+
+    function animate() {
+      raf = requestAnimationFrame(animate);
+      var t = clock.getElapsedTime();
+      group.rotation.y = t * 0.02 + mouseX * 0.08;
+      items.forEach(function (m) {
+        var d = m.userData;
+        d.angle += d.speed * 0.01;
+        m.position.set(Math.cos(d.angle) * d.radius, d.height + Math.sin(t * 0.5 + d.angle) * 0.2, Math.sin(d.angle) * d.radius * 0.5);
+        m.rotation.x += d.spin;
+        m.rotation.y += d.spin * 1.3;
+      });
+      particles.rotation.y = t * 0.008;
+      renderer.render(scene, camera);
+    }
+
+    function start() { if (!running) { running = true; resize(); animate(); } }
+    function stop() { running = false; if (raf) cancelAnimationFrame(raf); raf = null; }
+
+    window.addEventListener('resize', resize);
+    resize();
+
+    return { start: start, stop: stop, resize: resize, canvas: canvas };
+  }
+
+  /* ---------------------------------------------------------------------
+     Wire each canvas to a scene, and only run its render loop while its
+     containing section is actually on screen (IntersectionObserver), so
+     off-screen sections cost nothing.
+     --------------------------------------------------------------------- */
+  function wireScene(id, builder, arg) {
+    var canvas = document.getElementById(id);
+    if (!canvas) return;
+    var scene = builder(canvas, arg);
+    if (!scene) return;
+    var target = canvas.closest('section') || canvas;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) scene.start(); else scene.stop();
+      });
+    }, { threshold: 0.05 });
+    io.observe(target);
+  }
+
+  wireScene('sf3d-hero-canvas', buildHeroScene);
+  wireScene('sf3d-academy-canvas', buildDecorativeScene, 'academy');
+  wireScene('sf3d-digital-canvas', buildDecorativeScene, 'digital');
+  wireScene('sf3d-about-canvas', buildDecorativeScene, 'about');
+  wireScene('sf3d-contact-canvas', buildDecorativeScene, 'contact');
+
+  /* ---------------------------------------------------------------------
+     Scroll-tied cinematic touches (GSAP ScrollTrigger). Property tweens
+     only — no pinning, no layout changes, nothing that could shift the
+     existing page height or content position.
+     --------------------------------------------------------------------- */
+  if (window.gsap && window.ScrollTrigger) {
+    gsap.registerPlugin(ScrollTrigger);
+
+    var heroCanvas = document.getElementById('sf3d-hero-canvas');
+    if (heroCanvas) {
+      gsap.to(heroCanvas, {
+        opacity: 0.15,
+        scale: 0.9,
+        ease: 'none',
+        scrollTrigger: { trigger: '#home', start: 'top top', end: 'bottom top', scrub: true }
+      });
+    }
+
+    var mockWrap = document.querySelector('.mock-wrap');
+    if (mockWrap) {
+      gsap.fromTo(mockWrap,
+        { rotateY: -6, rotateX: 4 },
+        {
+          rotateY: 6, rotateX: -2, ease: 'none',
+          scrollTrigger: { trigger: '#digital', start: 'top bottom', end: 'bottom top', scrub: true }
+        }
+      );
+    }
+
+    ['sf3d-academy-canvas', 'sf3d-digital-canvas', 'sf3d-about-canvas', 'sf3d-contact-canvas'].forEach(function (id) {
+      var el = document.getElementById(id);
+      if (!el) return;
+      gsap.fromTo(el, { opacity: 0 }, {
+        opacity: 1, ease: 'none',
+        scrollTrigger: { trigger: el.closest('section'), start: 'top 80%', end: 'top 30%', scrub: true }
+      });
+    });
+  }
+})();
+</script>
+
+<!-- =====================================================================
+     SKILLFUSION MASSIVE PARTICLE FIELD — SCRIPT
+     Fully additive and fully independent. Reuses the three.js r128 build
+     already loaded above for the SF3D layer — no new dependency is added.
+     To fully remove this layer, delete:
+       1) this <script> block,
+       2) the #sf-particles-canvas element near the top of <body>,
+       3) the "SKILLFUSION MASSIVE PARTICLE FIELD — CSS" block in <head>.
+     Nothing else on the page depends on this layer. If WebGL, three.js,
+     or reduced-motion preferences are unavailable, this script quietly
+     hides the canvas and does nothing else — the rest of the site is
+     completely unaffected either way.
+     ===================================================================== -->
+<script>
+(function () {
+  "use strict";
+
+  var canvas = document.getElementById('sf-particles-canvas');
+  if (!canvas) return;
+
+  var reduceMotion = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  if (reduceMotion || !window.THREE) { canvas.style.display = 'none'; return; }
+
+  var THREE = window.THREE;
+
+  var hasWebGL = false;
+  try {
+    var testCtx = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+    hasWebGL = !!testCtx;
+  } catch (e) { hasWebGL = false; }
+  if (!hasWebGL) { canvas.style.display = 'none'; return; }
+
+  var renderer;
+  try {
+    renderer = new THREE.WebGLRenderer({ canvas: canvas, alpha: true, antialias: false, powerPreference: 'high-performance' });
+  } catch (e) { canvas.style.display = 'none'; return; }
+  renderer.setClearColor(0x000000, 0);
+
+  /* ---------------------------------------------------------------------
+     Sizing / particle-count tiers. Weaker / smaller devices get fewer
+     particles and a capped pixel ratio rather than losing the effect
+     entirely — the existing site is never blocked by any of this.
+     --------------------------------------------------------------------- */
+  var vw = window.innerWidth, vh = window.innerHeight;
+  var isSmall = vw < 640;
+  var isMedium = vw >= 640 && vw < 1100;
+  var lowPower = !!(navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 2);
+  var PARTICLE_COUNT = lowPower ? 2200 : (isSmall ? 3500 : (isMedium ? 9000 : 21000));
+  var dpr = Math.min(window.devicePixelRatio || 1, isSmall ? 1.5 : 2);
+
+  renderer.setPixelRatio(dpr);
+  renderer.setSize(vw, vh, false);
+
+  var scene = new THREE.Scene();
+  var camera = new THREE.PerspectiveCamera(55, vw / Math.max(1, vh), 0.1, 100);
+  camera.position.set(0, 0, 13);
+
+  var group = new THREE.Group();
+  scene.add(group);
+
+  /* ---------------------------------------------------------------------
+     Particle field construction (runs once at init only).
+     Positions are laid out with a deterministic Fibonacci-sphere spiral
+     driven purely by particle index — an organic, structured field
+     rather than random placement. A second, deterministic "grid" target
+     (also index-driven) represents the more structured/code-like
+     formation used for later sections. Colors are computed once here
+     and never touched again per frame.
+     --------------------------------------------------------------------- */
+  var n = PARTICLE_COUNT;
+  var positions = new Float32Array(n * 3);
+  var colors = new Float32Array(n * 3);
+  var seedTheta = new Float32Array(n);
+  var seedY = new Float32Array(n);
+  var seedShell = new Float32Array(n);
+  var gridX = new Float32Array(n);
+  var gridY = new Float32Array(n);
+  var gridZ = new Float32Array(n);
+
+  var GOLDEN_ANGLE = Math.PI * (3 - Math.sqrt(5));
+  var gridCols = Math.ceil(Math.sqrt(n));
+  var gridRows = Math.ceil(n / gridCols);
+  var gridSpacing = 0.11;
+
+  for (var i = 0; i < n; i++) {
+    var t = i / Math.max(1, n - 1);
+    var yv = 1 - t * 2;
+    var radiusAtY = Math.sqrt(Math.max(0, 1 - yv * yv));
+    var theta = GOLDEN_ANGLE * i;
+    var shell = i % 4;
+
+    seedTheta[i] = theta;
+    seedY[i] = yv;
+    seedShell[i] = shell;
+
+    var R = 5.2 + shell * 0.55;
+    positions[i * 3] = Math.cos(theta) * radiusAtY * R;
+    positions[i * 3 + 1] = yv * R;
+    positions[i * 3 + 2] = Math.sin(theta) * radiusAtY * R;
+
+    var gc = i % gridCols;
+    var gr = Math.floor(i / gridCols);
+    gridX[i] = (gc - gridCols / 2) * gridSpacing;
+    gridY[i] = (gridRows / 2 - gr) * gridSpacing;
+    gridZ[i] = Math.sin(gc * 0.35 + gr * 0.12) * 0.4;
+
+    var band = i % 100;
+    var r, g, b;
+    if (band < 4) {
+      /* sparse orange accent, ~4% */
+      r = 0.94; g = 0.51; b = 0.29;
+    } else if (band < 18) {
+      /* soft white highlights, ~14% */
+      r = 0.85; g = 0.90; b = 1.0;
+    } else {
+      /* deep navy / blue majority, shaded by shell */
+      var shade = 0.35 + shell * 0.14;
+      r = Math.min(1, 0.18 * shade + 0.05);
+      g = Math.min(1, 0.32 * shade + 0.08);
+      b = Math.min(1, 0.62 * shade + 0.25);
+    }
+    colors[i * 3] = r; colors[i * 3 + 1] = g; colors[i * 3 + 2] = b;
+  }
+
+  var geometry = new THREE.BufferGeometry();
+  geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+  var material = new THREE.PointsMaterial({
+    size: isSmall ? 0.052 : 0.038,
+    vertexColors: true,
+    transparent: true,
+    opacity: 0.85,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+    sizeAttenuation: true
+  });
+
+  var points = new THREE.Points(geometry, material);
+  group.add(points);
+
+  /* ---------------------------------------------------------------------
+     Per-section formation targets. Hero gets the strongest, largest,
+     most organic presence; sections with dense text/pricing content stay
+     low-opacity and calm so nothing interferes with readability;
+     Contact pulls the field inward toward a converging point.
+     --------------------------------------------------------------------- */
+  var SECTION_PARAMS = {
+    home:    { formation: 0.00, converge: 0.00, radius: 1.15, opacity: 0.85, speed: 1.00 },
+    academy: { formation: 0.85, converge: 0.00, radius: 0.90, opacity: 0.40, speed: 0.60 },
+    digital: { formation: 0.55, converge: 0.10, radius: 1.00, opacity: 0.42, speed: 0.75 },
+    pricing: { formation: 0.20, converge: 0.00, radius: 0.75, opacity: 0.16, speed: 0.40 },
+    about:   { formation: 0.05, converge: 0.00, radius: 0.85, opacity: 0.32, speed: 0.45 },
+    contact: { formation: 0.15, converge: 0.80, radius: 0.60, opacity: 0.50, speed: 0.80 }
+  };
+  var sectionEls = {};
+  Object.keys(SECTION_PARAMS).forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) sectionEls[id] = el;
+  });
+
+  var current = { formation: 0, converge: 0, radius: 1.15, opacity: 0.85, speed: 1 };
+  var target = { formation: 0, converge: 0, radius: 1.15, opacity: 0.85, speed: 1 };
+
+  function updateTargetSection() {
+    var best = null, bestDist = Infinity;
+    var refLine = vh * 0.4;
+    Object.keys(sectionEls).forEach(function (id) {
+      var rect = sectionEls[id].getBoundingClientRect();
+      if (rect.bottom < 0 || rect.top > vh) return;
+      var centerDist = Math.abs((rect.top + rect.bottom) / 2 - refLine);
+      if (centerDist < bestDist) { bestDist = centerDist; best = id; }
+    });
+    if (best && SECTION_PARAMS[best]) {
+      var p = SECTION_PARAMS[best];
+      target.formation = p.formation;
+      target.converge = p.converge;
+      target.radius = p.radius;
+      target.opacity = p.opacity;
+      target.speed = p.speed;
+    }
+  }
+
+  /* ---------------------------------------------------------------------
+     Interaction: mouse + scroll are only ever read here, once per event,
+     into plain numbers. Nothing expensive happens inside these handlers.
+     --------------------------------------------------------------------- */
+  var mouseX = 0, mouseY = 0;
+  window.addEventListener('mousemove', function (e) {
+    mouseX = (e.clientX / vw) * 2 - 1;
+    mouseY = (e.clientY / vh) * 2 - 1;
+  }, { passive: true });
+
+  var scrollPending = false;
+  window.addEventListener('scroll', function () {
+    if (scrollPending) return;
+    scrollPending = true;
+    requestAnimationFrame(function () { updateTargetSection(); scrollPending = false; });
+  }, { passive: true });
+
+  var resizePending = false;
+  window.addEventListener('resize', function () {
+    if (resizePending) return;
+    resizePending = true;
+    requestAnimationFrame(function () {
+      vw = window.innerWidth; vh = window.innerHeight;
+      camera.aspect = vw / Math.max(1, vh);
+      camera.updateProjectionMatrix();
+      renderer.setSize(vw, vh, false);
+      resizePending = false;
+    });
+  });
+
+  var contextLost = false;
+  canvas.addEventListener('webglcontextlost', function (ev) { ev.preventDefault(); contextLost = true; }, false);
+  canvas.addEventListener('webglcontextrestored', function () { contextLost = false; }, false);
+
+  updateTargetSection();
+
+  /* ---------------------------------------------------------------------
+     Animation loop. The per-particle math below only ever touches plain
+     numbers and the typed arrays created above — no DOM, no storage, no
+     network, no timers, no object allocation inside the loop. Positions
+     are protected against non-finite values before being written.
+     --------------------------------------------------------------------- */
+  var clock = new THREE.Clock();
+  var camRotX = 0, camRotY = 0;
+
+  function safe(v) {
+    return (isFinite(v)) ? v : 0;
+  }
+
+  function animate() {
+    if (contextLost) { requestAnimationFrame(animate); return; }
+
+    var dt = Math.min(clock.getDelta(), 0.05);
+    var t = clock.elapsedTime;
+
+    current.formation += (target.formation - current.formation) * 0.03;
+    current.converge  += (target.converge  - current.converge)  * 0.03;
+    current.radius    += (target.radius    - current.radius)    * 0.03;
+    current.opacity   += (target.opacity   - current.opacity)   * 0.04;
+    current.speed     += (target.speed     - current.speed)     * 0.03;
+
+    material.opacity = current.opacity;
+
+    var formation = current.formation;
+    var converge = current.converge;
+    var radiusScale = current.radius;
+    var speed = current.speed;
+    var breathing = 1 + Math.sin(t * 0.35) * 0.05;
+    var cScale = 1 - converge * 0.92;
+
+    var posAttr = geometry.attributes.position;
+    var arr = posAttr.array;
+
+    for (var i = 0; i < n; i++) {
+      var idx = i * 3;
+      var theta = seedTheta[i] + t * 0.02 * speed;
+      var yv = seedY[i];
+      var radiusAtY = Math.sqrt(Math.max(0, 1 - yv * yv));
+      var shell = seedShell[i];
+      var R = (5.2 + shell * 0.55) * radiusScale * breathing;
+      var wave = Math.sin(theta * 2.0 + t * 0.6 - shell * 0.8) * 0.18;
+
+      var organicX = Math.cos(theta) * radiusAtY * R + wave;
+      var organicY = yv * R + Math.sin(t * 0.4 + i * 0.0007) * 0.12;
+      var organicZ = Math.sin(theta) * radiusAtY * R;
+
+      var gx = gridX[i];
+      var gy = gridY[i];
+      var gz = gridZ[i] + Math.sin(t * 0.8 + gx * 1.5) * 0.06;
+
+      var fx = organicX * (1 - formation) + gx * formation;
+      var fy = organicY * (1 - formation) + gy * formation;
+      var fz = organicZ * (1 - formation) + gz * formation;
+
+      arr[idx]     = safe(fx * cScale);
+      arr[idx + 1] = safe(fy * cScale);
+      arr[idx + 2] = safe(fz * cScale);
+    }
+    posAttr.needsUpdate = true;
+
+    camRotX += ((mouseY * 0.12) - camRotX) * 0.02;
+    camRotY += ((mouseX * 0.16) - camRotY) * 0.02;
+    group.rotation.x = safe(camRotX);
+    group.rotation.y = safe(group.rotation.y + 0.0009 * speed + camRotY * 0.01);
+
+    var scrollY = window.scrollY || window.pageYOffset || 0;
+    var maxScroll = Math.max(1, document.documentElement.scrollHeight - vh);
+    var scrollFrac = Math.min(1, scrollY / maxScroll);
+
+    camera.position.x += ((mouseX * 0.7) - camera.position.x) * 0.02;
+    camera.position.y += ((-scrollFrac * 0.6) - camera.position.y) * 0.02;
+    camera.position.x = safe(camera.position.x);
+    camera.position.y = safe(camera.position.y);
+    camera.lookAt(0, 0, 0);
+
+    renderer.render(scene, camera);
+    requestAnimationFrame(animate);
+  }
+
+  requestAnimationFrame(animate);
+})();
+</script>
+
+</body>
+</html>
