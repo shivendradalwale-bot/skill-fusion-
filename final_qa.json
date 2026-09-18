@@ -1,0 +1,65 @@
+{
+  "console": [
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x284c00175c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x284c00175600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x284c00175c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "viewport": "desktop",
+      "type": "warning",
+      "text": "[.WebGL-0x284c00175600]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ],
+  "page_errors": [],
+  "tests": {
+    "desktop": {
+      "title": "SkillFusion | C Programming Training & Business Website Design",
+      "body_scroll_width": 1440,
+      "viewport_width": 1440,
+      "horizontal_overflow": false,
+      "canvas_count": 6,
+      "webgl_canvas_visible": 6,
+      "missing_anchor_targets": [],
+      "hamburger_visible": false,
+      "form_exists": true,
+      "form_required_fields": 4,
+      "form_valid_empty": false,
+      "form_valid_filled": true,
+      "images_without_alt": 0,
+      "buttons_without_name": 0
+    },
+    "mobile": {
+      "title": "SkillFusion | C Programming Training & Business Website Design",
+      "body_scroll_width": 390,
+      "viewport_width": 390,
+      "horizontal_overflow": false,
+      "canvas_count": 6,
+      "webgl_canvas_visible": 6,
+      "missing_anchor_targets": [],
+      "hamburger_visible": true,
+      "mobile_menu_open_after_click": true,
+      "mobile_menu_closed_after_nav": true,
+      "form_exists": true,
+      "form_required_fields": 4,
+      "form_valid_empty": false,
+      "form_valid_filled": true,
+      "images_without_alt": 0,
+      "buttons_without_name": 0
+    }
+  },
+  "screenshots": [
+    "/home/ubuntu/desktop_qa.png",
+    "/home/ubuntu/mobile_qa.png"
+  ]
+}

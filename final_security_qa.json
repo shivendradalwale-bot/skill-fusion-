@@ -1,0 +1,34 @@
+{
+  "console_errors": [],
+  "page_errors": [],
+  "csp_violations": [],
+  "requests": [],
+  "tests": {
+    "desktop": {
+      "horizontal_overflow": false,
+      "page_errors": 0,
+      "canvas_count": 6,
+      "visible_canvas_count": 6,
+      "missing_anchors": [],
+      "new_tab_without_noopener": 0,
+      "mobile_menu_ok": true,
+      "form_present": true,
+      "labels_associated": true,
+      "empty_form_invalid": true
+    },
+    "mobile": {
+      "horizontal_overflow": false,
+      "page_errors": 0,
+      "canvas_count": 6,
+      "visible_canvas_count": 6,
+      "missing_anchors": [],
+      "new_tab_without_noopener": 0,
+      "mobile_menu_ok": true,
+      "mobile_menu_open": true,
+      "mobile_menu_close": true,
+      "form_present": true,
+      "labels_associated": true,
+      "empty_form_invalid": true
+    }
+  }
+}

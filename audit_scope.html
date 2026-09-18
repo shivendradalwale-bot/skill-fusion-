@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    .slide-container { 
+      width: 1280px; 
+      min-height: 720px; 
+      background: #0A1128; 
+      display: flex; 
+      flex-direction: column; 
+      padding: 48px;
+      position: relative;
+      font-family: 'Inter', sans-serif;
+      color: #F8FAFC;
+    }
+    .top-accent {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: #FF6B35;
+    }
+    .slide-number {
+      position: absolute;
+      top: 48px;
+      right: 48px;
+      font-family: monospace;
+      font-size: 18px;
+      color: #94A3B8;
+    }
+    h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 32px;
+      margin-bottom: 48px;
+      padding-top: 24px;
+    }
+    .content-grid {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+    }
+    .scope-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    .scope-item {
+      padding-left: 24px;
+      border-left: 2px solid #FF6B35;
+    }
+    .scope-item h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+      color: #38BDF8;
+    }
+    .scope-item p {
+      font-size: 16px;
+      color: #94A3B8;
+      line-height: 1.5;
+    }
+    .diagram-zone {
+      background: #162032;
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .diagram-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      padding: 12px;
+      border: 1px solid #1E293B;
+    }
+    .diagram-label {
+      font-family: monospace;
+      font-size: 14px;
+      color: #38BDF8;
+    }
+    .diagram-status {
+      font-family: monospace;
+      font-size: 14px;
+      color: #FF6B35;
+    }
+    .footer-note {
+      margin-top: auto;
+      font-size: 14px;
+      color: #94A3B8;
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="top-accent"></div>
+    <div class="slide-number">02</div>
+    <h2>What was tested</h2>
+    <div class="content-grid">
+      <div class="scope-list">
+        <div class="scope-item">
+          <h3>Interactive Elements</h3>
+          <p>Broken links, buttons, navigation menus, and form submission logic across all pages.</p>
+        </div>
+        <div class="scope-item">
+          <h3>Responsive Layout</h3>
+          <p>Mobile menu behavior, horizontal overflow, and layout integrity at 390px and 1440px viewports.</p>
+        </div>
+        <div class="scope-item">
+          <h3>Technical Runtime</h3>
+          <p>JavaScript errors, WebGL initialization, Three.js performance, and GSAP animation stability.</p>
+        </div>
+        <div class="scope-item">
+          <h3>Accessibility & SEO</h3>
+          <p>ARIA states, form labels, image alt text, and meta-tag placeholder validation.</p>
+        </div>
+      </div>
+      <div class="diagram-zone">
+        <div class="diagram-row"><span class="diagram-label">VIEWPORT_DESKTOP</span><span class="diagram-status">1440x1000</span></div>
+        <div class="diagram-row"><span class="diagram-label">VIEWPORT_MOBILE</span><span class="diagram-status">390x844</span></div>
+        <div class="diagram-row"><span class="diagram-label">BROWSER_ENGINE</span><span class="diagram-status">CHROMIUM_HEADLESS</span></div>
+        <div class="diagram-row"><span class="diagram-label">TEST_SUITE</span><span class="diagram-status">PLAYWRIGHT_QA_RUNNER</span></div>
+      </div>
+    </div>
+    <div class="footer-note">Source: Automated QA Suite (qa_site.py)</div>
+  </div>
+</body>
+</html>

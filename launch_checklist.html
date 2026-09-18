@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    .slide-container { 
+      width: 1280px; 
+      min-height: 720px; 
+      background: #0A1128; 
+      display: flex; 
+      flex-direction: column; 
+      padding: 48px;
+      position: relative;
+      font-family: 'Inter', sans-serif;
+      color: #F8FAFC;
+    }
+    .top-accent {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: #FF6B35;
+    }
+    .slide-number {
+      position: absolute;
+      top: 48px;
+      right: 48px;
+      font-family: monospace;
+      font-size: 18px;
+      color: #94A3B8;
+    }
+    h2 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 32px;
+      margin-bottom: 48px;
+      padding-top: 24px;
+    }
+    .checklist-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .checklist-table th {
+      text-align: left;
+      padding: 16px;
+      font-size: 14px;
+      color: #94A3B8;
+      border-bottom: 2px solid #1E293B;
+    }
+    .checklist-table td {
+      padding: 20px 16px;
+      font-size: 16px;
+      border-bottom: 1px solid #1E293B;
+    }
+    .check-box {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #FF6B35;
+      display: inline-block;
+      margin-right: 12px;
+      vertical-align: middle;
+    }
+    .owner-tag {
+      font-family: monospace;
+      font-size: 12px;
+      background: #162032;
+      padding: 4px 8px;
+      color: #38BDF8;
+    }
+    .footer-note {
+      margin-top: auto;
+      font-size: 14px;
+      color: #94A3B8;
+      padding-top: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="slide-container">
+    <div class="top-accent"></div>
+    <div class="slide-number">06</div>
+    <h2>Pre-launch SEO & Domain Checklist</h2>
+    <table class="checklist-table">
+      <thead>
+        <tr>
+          <th>Action Item</th>
+          <th>Target Element</th>
+          <th>Owner</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><div class="check-box"></div> Replace "your-domain.com" placeholder</td>
+          <td>Canonical, OG:URL, JSON-LD</td>
+          <td><span class="owner-tag">DEV</span></td>
+        </tr>
+        <tr>
+          <td><div class="check-box"></div> Upload social preview image (1200x630)</td>
+          <td>OG:Image, Twitter:Image</td>
+          <td><span class="owner-tag">DESIGN</span></td>
+        </tr>
+        <tr>
+          <td><div class="check-box"></div> Validate robots.txt & sitemap.xml</td>
+          <td>Root Directory</td>
+          <td><span class="owner-tag">SEO</span></td>
+        </tr>
+        <tr>
+          <td><div class="check-box"></div> Verify WhatsApp link formatting</td>
+          <td>wa.me/916361435651</td>
+          <td><span class="owner-tag">QA</span></td>
+        </tr>
+        <tr>
+          <td><div class="check-box"></div> Test enquiry form email routing</td>
+          <td>Backend / SMTP</td>
+          <td><span class="owner-tag">DEV</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="footer-note">Note: Placeholders are currently present in lines 18, 26, 28, 35, and 55.</div>
+  </div>
+</body>
+</html>
